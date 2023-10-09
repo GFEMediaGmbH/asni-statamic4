@@ -1,0 +1,38 @@
+.ar {
+    direction: rtl;
+    /* Other RTL-specific styles */
+}
+
+.asni-header {
+    .dropdown-submenu {
+        transition: opacity 0.2s ease;
+        opacity: 0;
+        display: none;
+    }
+
+    .dropdown-submenu.show {
+        opacity: 1;
+        display: block;
+    }
+}
+
+.stage {
+    background-image: url('/images/stage.jpg');
+    background-position: center;
+}
+
+@keyframes kenBurns {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ken-burns {
+    animation: kenBurns 20s infinite alternate;
+}

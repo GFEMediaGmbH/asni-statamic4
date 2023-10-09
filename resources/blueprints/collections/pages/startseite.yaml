@@ -1,0 +1,143 @@
+title: Home
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              localizable: true
+              validate:
+                - required
+      -
+        display: 'Intro boxes'
+        fields:
+          -
+            handle: intro_boxes
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+              smart_typography: false
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              reading_time: false
+              word_count: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              remove_empty_nodes: false
+              antlers: false
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              sets:
+                banners:
+                  display: Banners
+                  instructions: null
+                  icon: addon-boxes-stack
+                  sets:
+                    three_banners:
+                      display: Banner
+                      instructions: null
+                      icon: layout-carousel-horizontal
+                      fields:
+                        -
+                          handle: heading
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Heading
+                            icon: text
+                            localizable: true
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: text
+                          field:
+                            antlers: false
+                            type: textarea
+                            display: Text
+                            icon: textarea
+                            localizable: true
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: link
+                          field:
+                            type: link
+                            display: Link
+                            icon: link
+                            localizable: true
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+              always_show_set_button: true
+              collapse: false
+              previews: true
+              type: bard
+              display: 'Intro boxes'
+              icon: bard
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: template
+            field:
+              hide_partials: true
+              blueprint: false
+              type: template
+              display: Template
+              icon: template
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false

@@ -1,0 +1,36 @@
+tree:
+  -
+    id: 241dace1-9c9d-42f3-a3a7-892f2fd018d8
+    title: Home
+    url: /
+  -
+    id: 96c95ba8-8e50-4d16-bae0-4645c35727b3
+    title: Geschichte
+    url: /
+  -
+    id: 241c2fd3-43e9-44ed-a903-097b622e7aee
+    title: Angebot
+    url: Angebot
+  -
+    id: fdfd5706-ca20-4a9c-bbfd-3ec863bdffc1
+    title: Schulbau
+    children:
+      -
+        id: 3dd51fa4-8fe5-4f2f-af74-537fbce8e78d
+        title: 'Bau Blog'
+  -
+    id: d5774683-dd8f-421b-a773-20111b2a8bac
+    title: Amarg
+  -
+    id: aca0fb15-7a35-476f-a195-5fc3126111e7
+    title: 'Stiftung Media'
+    children:
+      -
+        id: 03fba815-6328-40df-84fa-2acb882c3505
+        title: Wärmeblock
+  -
+    id: fd492715-7adf-477d-84ea-f43128b14259
+    title: Galerie
+  -
+    id: 692feea8-d415-4757-b28f-9ed50efda199
+    title: 'Team Asni'

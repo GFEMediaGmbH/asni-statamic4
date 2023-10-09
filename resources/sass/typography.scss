@@ -1,0 +1,53 @@
+@layer base {
+	/* purgecss start ignore */
+  * {
+    @apply font-primary;
+  }
+  
+	body {
+		@apply text-base text-black;
+	}
+
+	b,
+	strong {
+		@apply font-bold;
+	}
+
+	p {
+		@apply mb-6;
+	}
+
+	em {
+		@apply italic;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply text-primary font-normal   mt-10;
+	}
+
+	h1 {
+		@apply text-2xl mb-7;
+	}
+
+	h2 {
+		@apply text-xl mb-5;
+	}
+
+	h3 {
+		@apply text-lg mb-3;
+	}
+
+	h4 {
+		@apply text-md mb-2;
+	}
+
+	h5 {
+		@apply text-md mb-2;
+	}
+	/* purgecss end ignore */
+}

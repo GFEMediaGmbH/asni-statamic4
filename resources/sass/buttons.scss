@@ -1,0 +1,21 @@
+@layer components {
+	/* purgecss start ignore */
+	.btn {
+		@apply font-secondary uppercase leading-5 rounded;
+		padding: 1.25rem 2.81rem;
+	}
+	.btn-primary {
+		align-items: center;
+		justify-content: center;
+		display: inline-flex;
+	}
+	.btn-outlined {
+		@apply border border-primary p-3;
+	}
+	.btn-contrast {
+		@apply border border-white text-white p-3 hover:bg-white hover:text-primary;
+	}
+	/* purgecss end ignore */
+}
+
+/* purgecss end ignore */

@@ -1,0 +1,35 @@
+<!-- Footer Start -->
+<div class="bg-primary text-white py-16">
+    <div class="container mx-auto px-4 md:px-8 lg:px-16">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+            <!-- First Column -->
+            <div class="flex flex-col gap-4">
+               <h3 class="text-lg  text-white ">{{ footer_column_1:heading }}</h3>
+                <p class="font-light">{{ footer_column_1:text }}</p>
+                <a class="btn w-auto self-start btn-contrast font-light" href="{{ footer_column_1:url }}">SPENDEN</a>
+            </div>
+
+            <!-- Second Column -->
+            <div>
+                <nav>
+                    {{ nav:footer_navigation }}
+                        <a href="{{ url }}" class="block uppercase font-light border-b border-gray-light py-2 hover:text-gray-300">{{ title }}</a>
+                    {{ /nav:footer_navigation }}
+                </nav>
+            </div>
+
+            <!-- Third Column -->
+            <div class="flex flex-col gap-4">
+               <h3 class="text-lg  text-white">{{ footer_column_3:heading }}</h3>
+                <p class="font-light">{{ footer_column_3:text }}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+ <div class="bg-white w-full font-light text-center py-2"> © Copyright 2023 ASNI School of Music </div>
+<!-- Footer End -->
+
+
+ 

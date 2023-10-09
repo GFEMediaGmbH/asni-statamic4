@@ -15,10 +15,29 @@ return [
 
     'sites' => [
 
-        'default' => [
-            'name' => config('app.name'),
-            'locale' => 'en_US',
+        'de' => [
+            'name' => 'de',
+            'locale' => 'de_DE',
             'url' => '/',
+        ],
+
+        'en' => [
+            'name' => 'en',
+            'locale' => 'en_US',
+            'url' => '/en/',
+        ],
+
+        'fr' => [
+            'name' => 'fr',
+            'locale' => 'fr_FR',
+            'url' => '/fr/',
+        ],
+
+        'ar' => [
+            'name' => 'ar',
+            'locale' => 'ar_MA',
+            'url' => '/ar/',
+            'direction' => 'ltr',
         ],
 
     ],
