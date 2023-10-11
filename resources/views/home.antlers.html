@@ -1,13 +1,73 @@
-<div class="stage ken-burns z-10 bg-cover bg-no-repeat min-h-150 overflow-hidden w-full"></div>
 
+<!--Stage-->
+<div class="stage">
+ <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        {{ stage_images }}
+        <div class="swiper-slide ken-burns">
+            <img src="{{ url }}" alt="Stage Image">
+        </div>
+        {{ /stage_images }}
+    </div>
+   
+</div>
+</div>
+
+<!--3 Boxes-->
 <div class="bg-white  relative z-50   ">
     <div class="relative container -top-20  md:flex md:flex-row  ">
       {{ intro_boxes }}
-          <div class="box {{ index == 0 ? 'bg-green' : (index == 1 ? 'bg-yellow' : (index == 2 ? 'bg-red' : '')) }} text-white p-8 flex flex-col justify-start">
+          <div class="box flex-1 {{ index == 0 ? 'bg-green' : (index == 1 ? 'bg-yellow' : (index == 2 ? 'bg-red' : '')) }} text-white p-8 flex flex-col justify-start">
               <h3 class="text-white text-md font-bold mb-2">{{ heading }}</h3>
               <p>{{ text }}</p>
-              <a href="{{ link }}" class="btn btn-contrast self-start mt-4">Read More</a>
+              <a href="{{ link }}" class="btn btn-contrast self-start mt-4">{{ trans:messages.Readmore }}</a>
           </div>
       {{ /intro_boxes }}
     </div>
+</div>
+
+<!--Images-->
+<div class="bg-white  mb-24">
+    <div class="relative container md:flex text-black font-bold text-xl">
+        <!-- Display the Heading -->
+        <h3 class="text-left text-xl text-black md:text-right font-bold  mb-8 md:mb-0  md:text-2xl opacity-60 flex-1 mr-4">{{ heading }}</h3>
+
+        <!-- Loop through the Images and Display Each One -->
+      <div class="image-gallery flex flex-col md:flex-row gap-4 h-96 md:h-64 w-full"> <!-- Adjust h-64 if you want a different height -->
+          {{ images }}
+              <div class="image-item flex-1 relative overflow-hidden">
+                  <img src="{{ url }}" alt="Description" class="absolute inset-0 w-full h-full object-cover">
+              </div>
+          {{ /images }}
+      </div>
+    </div>
+</div>
+
+
+<!--Donate Banner-->
+<div class="bg-gray-light py-12 md:py-24 px-4 md:px-0 mb-24">
+    <div class="relative container md:flex gap-4 ">
+         <div class="flex gap-4 flex-col">
+          <h3 class="text-black text-xl md:text-2xl mb-4 md:mb-0 font-bold uppercase text-left mr-4 opacity-60">{{ heading_donate }}</h3>
+          <p>{{ text }}</p>
+          <a class="btn btn-primary w-auto self-start " href="{{ donate_link }}">{{ trans:messages.Donate }}</a>
+         </div>
+
+    </div>
+</div>
+
+<!--Posts-->
+<div class="py-12 px-4 mb-24 container flex flex-col md:flex-row gap-12"> 
+{{ collection:posts  }}
+  <div class="flex  flex-col gap-4 bg-white shadow-lg">
+      <img class="max-w-100" src="{{ featured_image }}">
+      <div class="px-4 pb-4">
+         <h4 class="text-black font-medium">{{ title }}</h4>
+          <p class="text-sm">{{ excerpt }}</p>
+          <a class="font-bold text-secondary  py-2 hover:text-primary" href="{{ url }}">{{ trans:messages.Readmore }}</a>
+      </div>
+  </div>
+   
+{{ /collection:posts }}
 </div>

@@ -1,10 +1,11 @@
-@layer components {
 	/* purgecss start ignore */
+@layer components {
 	.btn {
-		@apply font-secondary uppercase leading-5 rounded;
+		@apply font-secondary uppercase leading-5 rounded ;
 		padding: 1.25rem 2.81rem;
 	}
 	.btn-primary {
+		@apply bg-primary text-white hover:bg-white hover:text-primary border border-primary;
 		align-items: center;
 		justify-content: center;
 		display: inline-flex;
@@ -15,7 +16,6 @@
 	.btn-contrast {
 		@apply border border-white text-white p-3 hover:bg-white hover:text-primary;
 	}
-	/* purgecss end ignore */
+	
 }
-
 /* purgecss end ignore */

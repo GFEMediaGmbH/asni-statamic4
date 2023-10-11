@@ -43,6 +43,7 @@ module.exports = {
 			extralight: 200,
 			light: 300,
 			normal: 400,
+			medium: 500,
 			bold: 700,
 		},
 		screens: {

@@ -1,6 +1,7 @@
 title: Page
 tabs:
   main:
+    display: Main
     sections:
       -
         fields:
@@ -9,12 +10,197 @@ tabs:
             field:
               type: text
               required: true
-          -
-            handle: content
-            field:
-              type: markdown
-              display: Content
               localizable: true
+              validate:
+                - required
+          -
+            handle: repeater
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+              smart_typography: false
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              reading_time: false
+              word_count: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              remove_empty_nodes: false
+              antlers: false
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              sets:
+                content:
+                  display: Content
+                  instructions: null
+                  icon: null
+                  sets:
+                    content:
+                      display: Content
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                              - h4
+                              - h5
+                              - underline
+                              - strikethrough
+                              - code
+                            smart_typography: false
+                            save_html: false
+                            inline: false
+                            toolbar_mode: fixed
+                            reading_time: false
+                            word_count: false
+                            fullscreen: true
+                            allow_source: true
+                            enable_input_rules: true
+                            enable_paste_rules: true
+                            remove_empty_nodes: false
+                            antlers: true
+                            link_noopener: false
+                            link_noreferrer: false
+                            target_blank: false
+                            always_show_set_button: false
+                            collapse: false
+                            previews: true
+                            type: bard
+                            display: Content
+                            icon: bard
+                            localizable: true
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                            container: assets
+                    images:
+                      display: Images
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: images
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Images
+                            icon: assets
+                            localizable: true
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                    video:
+                      display: Video
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: video
+                          field:
+                            type: video
+                            display: Video
+                            icon: video
+                            localizable: true
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                    text_banner:
+                      display: 'Text Banner'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: banner_text
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                            smart_typography: false
+                            save_html: false
+                            inline: false
+                            toolbar_mode: fixed
+                            reading_time: false
+                            word_count: false
+                            fullscreen: true
+                            allow_source: true
+                            enable_input_rules: true
+                            enable_paste_rules: true
+                            remove_empty_nodes: false
+                            antlers: false
+                            link_noopener: false
+                            link_noreferrer: false
+                            target_blank: false
+                            always_show_set_button: false
+                            collapse: false
+                            previews: true
+                            type: bard
+                            display: 'Banner Text'
+                            icon: bard
+                            localizable: false
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+              always_show_set_button: false
+              collapse: false
+              previews: true
+              type: bard
+              display: Repeater
+              icon: bard
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
           -
             handle: author
             field:
@@ -30,6 +216,7 @@ tabs:
               display: Template
               localizable: true
   sidebar:
+    display: Sidebar
     sections:
       -
         fields:

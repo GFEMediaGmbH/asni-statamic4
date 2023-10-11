@@ -1,0 +1,73 @@
+ 
+<div class="my-14 justify-start container">
+    <div class="max-w-content  flex flex-col gap-2">
+ 
+    {{ repeater }}
+      {{# Check if the set is the 'content' type #}}
+      <div class="page-content-component">
+        {{ if type == 'content' }}
+            {{ content }}
+        {{ /if }}
+      </div>
+
+      {{# Check if the set is the 'images' type #}}
+      {{ if type == 'images' }}
+          <!--Images-->
+         <div class="stage mb-4 shadow-md rounded-xl">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    {{ images }}
+                    <div class="swiper-slide">
+                        <img src="{{ url }}" alt="Stage Image">
+                    </div>
+                    {{ /images }}
+                     
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> 
+                </div>
+              
+            </div>
+           
+        </div>
+      {{ /if }}
+
+      {{# Check if the set is the 'video' type #}}
+      {{ if type == 'video' }}
+          <video controls>
+              <source class="w-full" src="{{ video }}" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      {{ /if }}
+
+
+       {{ if type == 'text_banner' }}
+         <div class="w-full bg-gray-light px-6 pt-6 shadow-md mb-4">
+            {{ banner_text }}
+         </div>
+      {{ /if }}
+
+
+
+
+  {{ /repeater }}
+   </div>
+
+   <div class="pb-12 mb-24  flex flex-col md:flex-row gap-12"> 
+    {{ collection:posts  }}
+      <div class="flex  flex-col gap-4 bg-white shadow-lg">
+          <img class="max-w-100" src="{{ featured_image }}">
+          <div class="px-4 pb-4">
+            <h4 class="text-black font-medium">{{ title }}</h4>
+              <p class="text-sm">{{ excerpt }}</p>
+              <a class="font-bold text-secondary  py-2 hover:text-primary" href="{{ url }}">{{ trans:messages.Readmore }}</a>
+          </div>
+      </div>
+      
+    {{ /collection:posts }}
+</div>
+
+</div>
+
+
+

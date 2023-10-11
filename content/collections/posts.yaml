@@ -1,0 +1,24 @@
+title: Posts
+sites:
+  - de
+  - ar
+  - en
+  - fr
+propagate: false
+template: post
+layout: layout
+revisions: false
+route:
+  de: '/de/posts/{slug}'
+  ar: '/ar/posts/{slug}'
+  en: '/en/posts/{slug}'
+  fr: '/fr/posts/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

@@ -27,7 +27,7 @@
 	h4,
 	h5,
 	h6 {
-		@apply text-primary font-normal   mt-10;
+		@apply text-primary font-normal ;
 	}
 
 	h1 {
@@ -35,11 +35,11 @@
 	}
 
 	h2 {
-		@apply text-xl mb-5;
+		@apply text-xl font-bold mb-5;
 	}
 
 	h3 {
-		@apply text-lg mb-3;
+		@apply text-md mb-3;
 	}
 
 	h4 {
