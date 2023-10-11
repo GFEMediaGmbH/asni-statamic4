@@ -1123,6 +1123,10 @@ video {
 }
 @media (min-width: 48rem) {
 
+  .md\:-top-20 {
+    top: -5rem;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
