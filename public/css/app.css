@@ -668,9 +668,6 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mt-14 {
-  margin-top: 3.5rem;
-}
 .block {
   display: block;
 }
@@ -859,6 +856,9 @@ video {
 .pb-0 {
   padding-bottom: 0px;
 }
+.pb-12 {
+  padding-bottom: 3rem;
+}
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -870,9 +870,6 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
-}
-.pb-12 {
-  padding-bottom: 3rem;
 }
 .text-left {
   text-align: left;
@@ -1122,10 +1119,6 @@ video {
   color: rgb(213 83 67 / var(--tw-text-opacity));
 }
 @media (min-width: 48rem) {
-
-  .md\:-top-20 {
-    top: -5rem;
-  }
 
   .md\:mb-0 {
     margin-bottom: 0px;
