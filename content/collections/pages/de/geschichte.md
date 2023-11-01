@@ -5,7 +5,7 @@ title: Geschichte
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1697031352
+updated_at: 1698851028
 repeater:
   -
     type: paragraph

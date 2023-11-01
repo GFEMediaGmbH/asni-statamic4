@@ -1,43 +1,63 @@
 tree:
   -
-    id: 241dace1-9c9d-42f3-a3a7-892f2fd018d8
-    title: Home
-    url: /
+    id: 643bf4e8-99c2-4295-be7c-730685d6bedc
+    title: Startseite
+    data:
+      entries:
+        - 8ad39c76-92b6-456d-b8eb-b6ba9b343336
   -
-    id: 96c95ba8-8e50-4d16-bae0-4645c35727b3
+    id: fb0b6a89-d3ad-4dfd-b009-dcc39e3349b6
     title: Geschichte
-    url: geschichte
+    data:
+      entries:
+        - ffb8dc38-d0ea-4192-baff-e473d15adb59
   -
-    id: 241c2fd3-43e9-44ed-a903-097b622e7aee
+    id: f5ce1278-ae95-409c-96ba-7e6eccc55f92
     title: Angebot
-    url: angebot
+    data:
+      entries:
+        - f3a70209-ff40-4bfc-bdfc-6da08594c854
   -
-    id: fdfd5706-ca20-4a9c-bbfd-3ec863bdffc1
+    id: 94a95adc-e479-445d-a92b-a695c3804e65
     title: Schulbau
-    url: schulbau
+    data:
+      entries:
+        - b0af81b9-e5ab-4dbc-ae69-5e03165ac4a9
     children:
       -
-        id: 3dd51fa4-8fe5-4f2f-af74-537fbce8e78d
+        id: 1ab6619b-76b8-4a29-8ce9-a75f03bf9950
         title: 'Bau Blog'
-        url: bau-blog
+        data:
+          entries:
+            - bc431a25-4f26-4ef8-9e30-c9c1c9f10c41
   -
-    id: d5774683-dd8f-421b-a773-20111b2a8bac
+    id: a3be0e36-b067-4fdb-8c65-467f58c75a26
     title: Amarg
-    url: amarg
+    data:
+      entries:
+        - ae602a35-9dac-409a-873e-cfdf08f20d89
   -
-    id: aca0fb15-7a35-476f-a195-5fc3126111e7
+    id: 5625a4cd-46d0-4693-900e-622a4a6fee0b
     title: 'Stiftung Media'
-    url: stiftung-media
+    data:
+      entries:
+        - f75dedca-e617-41c2-8057-cebc5bdd4228
     children:
       -
-        id: 03fba815-6328-40df-84fa-2acb882c3505
+        id: c9f4f56e-d82e-4a31-a7c6-dc69c2fbefd4
         title: Wärmeblock
-        url: waermeblock
+        data:
+          entries:
+            - f8dee34a-afec-4574-a3d7-f609a2ad6a64
   -
-    id: fd492715-7adf-477d-84ea-f43128b14259
+    id: 5c456478-c76c-4acd-acd5-de541d89ec36
     title: Galerie
-    url: galerie
+    data:
+      entries:
+        - 1873e5db-9ecc-4d68-a7fc-6aed1d89dc88
   -
-    id: 692feea8-d415-4757-b28f-9ed50efda199
+    id: fad5c877-fa25-4f37-8cc8-4910810d8382
     title: 'Team Asni'
-    url: team-asni
+    data:
+      entries:
+        - 62e5c8a6-5813-41fc-83e0-9f6e5694fafa

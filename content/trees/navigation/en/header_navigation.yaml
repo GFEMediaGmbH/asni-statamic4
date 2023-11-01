@@ -1,0 +1,63 @@
+tree:
+  -
+    id: f780ee95-1272-49d2-96a1-a1fb0793555a
+    title: Home
+    data:
+      entries:
+        - d4fbb284-30d5-4c2e-9c8c-f16b76c2388d
+  -
+    id: 7ef3c028-f9d3-4e24-b84c-2a94a59ec516
+    title: History
+    data:
+      entries:
+        - bacef690-04e2-4389-997b-b7eaec5863a1
+  -
+    id: 1fafb301-b9b3-47f3-9064-a83ef28d5a83
+    title: Offer
+    data:
+      entries:
+        - 3c87bc9e-9c8f-4053-bdfa-d75c22227c74
+  -
+    id: 57646a2d-e871-480b-ac16-215ee363bf1a
+    title: 'School construction'
+    data:
+      entries:
+        - b3f82944-48d4-463b-9069-75b2f01e137f
+    children:
+      -
+        id: 51cf5c09-2904-47d1-95f4-a8e0e6af83df
+        title: 'Construction Blog'
+        data:
+          entries:
+            - 5b6d39c8-56c6-446e-a1fe-83567b2ad946
+  -
+    id: 43751a9d-8a19-497e-9295-122fc847d125
+    title: Amarg
+    data:
+      entries:
+        - f15770be-e637-4dbf-9c3c-953b95119695
+  -
+    id: cec484ca-89ab-4e86-aaed-4aa14cacbcdf
+    title: 'Stiftung Media'
+    data:
+      entries:
+        - 9d0fc8d4-01e9-42f8-885a-d782dc95c4c1
+    children:
+      -
+        id: 5664c3c6-8144-4601-9ba6-b274779bf7dc
+        title: Warmblock
+        data:
+          entries:
+            - e10f1678-a55c-4d49-8684-3f2f261d83c6
+  -
+    id: c712e533-5104-4104-a4c3-c41e9ef4a652
+    title: Gallery
+    data:
+      entries:
+        - 18804f82-5f60-4a8f-a6ac-188b70ec2ce2
+  -
+    id: 4d7a7854-7fee-4b47-bcf8-3f4c446ece1b
+    title: 'Team Asni'
+    data:
+      entries:
+        - 55601735-96e5-4a31-8bf4-53568ef09a5a

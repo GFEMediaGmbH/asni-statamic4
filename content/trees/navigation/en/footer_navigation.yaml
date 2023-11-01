@@ -1,0 +1,25 @@
+tree:
+  -
+    id: 3ac04deb-0106-4e6a-a91f-973bbe5b8a1e
+    title: Contact
+    data:
+      entries:
+        - b59d3fae-3a65-4d8f-8a14-b6387536412c
+  -
+    id: dac8ddb1-bbd8-40b9-9f2b-209fe2d74dc4
+    title: Imprint
+    data:
+      entries:
+        - dbeeda93-381b-4900-a8ef-9bee1aaa0eaf
+  -
+    id: 6dc2a414-ca58-4bc5-b5e1-270c42452b4f
+    title: 'Privacy Policy'
+    data:
+      entries:
+        - 1278da20-f245-4223-939c-10836990f6d5
+  -
+    id: eb4a5ec7-ceeb-4d73-842b-13cc792d822f
+    title: Cookies
+    data:
+      entries:
+        - 3b5e7aec-859e-4e99-b499-59af45b700ec

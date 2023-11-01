@@ -1,0 +1,63 @@
+tree:
+  -
+    id: a66ee238-5fc1-4671-be0e-1e4646672ee2
+    title: "Page d'accueil"
+    data:
+      entries:
+        - 4826686d-c9c8-474f-af0e-a10399250140
+  -
+    id: 884c0ea4-6aba-4a92-b851-23e29268be6e
+    title: Histoire
+    data:
+      entries:
+        - 58e6a02c-cbaa-4118-91bd-75205f180277
+  -
+    id: 3cb756ca-aabb-4a19-9960-dcd8657958bd
+    title: Offre
+    data:
+      entries:
+        - fd7bfe4e-ee5f-416d-8a8c-c2fe53c77e0f
+  -
+    id: 03baea6d-e2a1-4de9-89bb-6eee69e7c9bf
+    title: 'Construction scolaire'
+    data:
+      entries:
+        - 0b698679-83b1-4db1-a628-651fcd04ba16
+    children:
+      -
+        id: e1af8906-9593-4407-8bcd-fd28c3f42a36
+        title: 'Blog sur la construction'
+        data:
+          entries:
+            - 0670016a-ee98-420c-9a59-8e75c23f6a11
+  -
+    id: f30fcfe7-ae40-4313-a0d6-23b262a4e119
+    title: Amarg
+    data:
+      entries:
+        - 5ca2f493-ec19-4502-b3bd-663ca5b033f2
+  -
+    id: 90cb75ac-87cd-4e0d-a375-d0f0fb5a9d5d
+    title: 'Fondation Media'
+    data:
+      entries:
+        - 83f07220-a83f-414a-9f92-a3a3f8af2671
+    children:
+      -
+        id: e6cf233d-3371-4d85-ba8d-7e791f3ed4de
+        title: 'LE BLOC DE CHALEUR'
+        data:
+          entries:
+            - d8b1190d-08f1-4da7-ad6f-ae9f7b77c171
+  -
+    id: 613483ac-0ae6-4831-bf79-de165816975f
+    title: Galerie
+    data:
+      entries:
+        - f282e55e-6b03-4cd8-bec1-638f1e97f87c
+  -
+    id: d12e73b2-36fc-4ebb-a037-1cea80e6d1a7
+    title: 'Team Asni'
+    data:
+      entries:
+        - 6fc09102-7515-4d48-a650-fd4becda0f7c

@@ -1,0 +1,63 @@
+tree:
+  -
+    id: b207a7b0-374d-4e9d-bf9f-7e9339b77242
+    title: 'الصفحة الرئيسية'
+    data:
+      entries:
+        - 5c4b40cd-8a44-4b66-9ace-3fad65b2187f
+  -
+    id: e8d33b92-7003-45ca-879a-492ea379a800
+    title: البدايات
+    data:
+      entries:
+        - 9553df0e-c703-41fe-830b-aaa67e34be81
+  -
+    id: f12a005d-f1dd-4017-af62-3400550ad445
+    title: عرض
+    data:
+      entries:
+        - 2ee12e4e-7b40-4c8d-939b-fcdc8b7ce740
+  -
+    id: 9dd91ba0-4753-45ad-855f-4fb85ef81fb7
+    title: 'ﺗﺸﻴﻴﺪ ﻣﺪرﺳﺔ ﻟﻠﻤﻮﺳﻴﻘﻰ ﺑﺂﺳﻨﻲ'
+    data:
+      entries:
+        - c26a3ac8-78ea-4a8a-ad33-0c398be09c24
+    children:
+      -
+        id: dc785e4f-7a0f-4655-9f1e-e23eaa583ba1
+        title: 'Blog sur la construction'
+        data:
+          entries:
+            - a4ce27f2-4b20-4378-bd40-fc98c682c01b
+  -
+    id: 39e9f66c-b9b4-4e64-ad7d-bf8a65d34fe1
+    title: Amarg
+    data:
+      entries:
+        - 7859dffe-9985-4a1e-8694-d8dee9057e87
+  -
+    id: 195c7764-db3a-4131-b856-7639c383c44b
+    title: ؤسسة
+    data:
+      entries:
+        - 2776d9a4-630c-410d-a77f-220023bdcae2
+    children:
+      -
+        id: 61da8e75-41d2-4c28-802c-763141216a63
+        title: 'Blog sur la construction'
+        data:
+          entries:
+            - a4ce27f2-4b20-4378-bd40-fc98c682c01b
+  -
+    id: 2f7dbaf6-7aed-469f-81d3-dcf9540d7713
+    title: Galerie
+    data:
+      entries:
+        - 7ab657da-9437-455f-b869-550e82a26f9d
+  -
+    id: 16eba603-6263-4dd5-82e0-a840ffab0e73
+    title: 'Team Asni'
+    data:
+      entries:
+        - c98bebab-f7e5-4024-817e-d23ad6662fb6

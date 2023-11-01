@@ -1,0 +1,25 @@
+tree:
+  -
+    id: 0761f69d-8ecc-4afb-b451-eb18efcec061
+    title: Contactez
+    data:
+      entries:
+        - df05eb5c-978b-4374-9412-d4cba6aa7efb
+  -
+    id: f5dc4da8-4fb0-4858-9afa-a281559dce1c
+    title: 'Mentions légales'
+    data:
+      entries:
+        - 53d04023-e127-4adf-86e6-4cd0c3910649
+  -
+    id: 931e80e5-30d6-46c5-907f-2fc88b7a5e9d
+    title: 'Privacy Policy'
+    data:
+      entries:
+        - 2c670b44-7d75-4c41-b88d-89d6b53b7dcd
+  -
+    id: 7638565d-b8b8-44ae-9c0f-2f93d0677479
+    title: Cookies
+    data:
+      entries:
+        - 8482d426-ccaf-4425-b4ae-ef4185380213

@@ -9,53 +9,64 @@
 
     <div class="flex justify-between items-center md:container pt-4 pb-2">
         <!-- Menu: On the left side on desktop, hidden on mobile -->
-        <nav class="hidden gap-6 md:flex">
-            {{ nav:header_navigation }}
-            <div x-data="{ open: false, timeout: null }" class="relative group" 
-                 @mouseenter="clearTimeout(timeout); open = true" 
-                 @mouseleave="timeout = setTimeout(() => { open = false }, 500)">
-                <a href="{{ url }}" class="text-black hover:text-secondary text-md pb-2 font-light mr-4">{{ title }}</a>
-                
-                <!-- Dropdown Submenu for Desktop -->
-                {{ if children }}
-                <div :class="{ 'show': open }" class="dropdown-submenu absolute z-50 w-48 mt-4 bg-white rounded shadow">
-                    {{ children }}
+      <nav class="hidden gap-6 md:flex">
+    {{ nav:header_navigation }}
+    <div x-data="{ open: false, timeout: null }" class="relative group"
+         @mouseenter="clearTimeout(timeout); open = true" 
+         @mouseleave="timeout = setTimeout(() => { open = false }, 500)">
+        
+        {{ entries }}
+            <a href="{{ url }}" class="text-black hover:text-secondary text-md pb-2 font-light mr-4">{{ title }}</a>
+        
+            <!-- Dropdown Submenu for Desktop -->
+            {{ if children }}
+            <div :class="{ 'show': open }" class="dropdown-submenu absolute z-50 w-48 mt-4 bg-white rounded shadow">
+                {{ children }}
+                    {{ entries }}
                     <a href="{{ url }}" class="block px-4 py-4 font-light text-md text-gray-700 hover:bg-gray-100">{{ title }}</a>
-                    {{ /children }}
-                </div>
-                {{ /if }}
+                    {{ /entries }}
+                {{ /children }}
             </div>
-            {{ /nav:header_navigation }}
-        </nav>
+            {{ /if }}
+        {{ /entries }}
+
+    </div>
+    {{ /nav:header_navigation }}
+</nav>
 
         <!-- Mobile Menu: Visible only on mobile -->
        <div x-data="{ open: false }" class="md:hidden">
-            <button @click="open = !open" class="text-gray-700 hover:text-gray-900">
-                <img src="/images/menu.svg" class="w-8">
-            </button>
+    <button @click="open = !open" class="text-gray-700 hover:text-gray-900">
+        <img src="/images/menu.svg" class="w-8">
+    </button>
 
-            <!-- Dropdown Menu for Mobile -->
-            <div x-show="open" class="absolute h-auto shadow-md z-50  w-full left-0 bg-white ring-1 ring-black ring-opacity-5">
-                {{ nav:header_navigation }}
-                <div x-data="{ submenuOpen: false }" class="flex justify-between flex-col items-center px-4 py-4 border-gray border-b">
-                    <div class="flex w-full justify-between">
-                        <a href="{{ url }}" class="text-sm text-gray-700 hover:bg-gray-100">{{ title }}</a>
-                        {{ if children }}
-                        <button @click="submenuOpen = !submenuOpen">
-                            <img src="/images/arrow-down.svg" class="w-4 transform" :class="{ 'rotate-180': submenuOpen }">
-                        </button>
-                    {{ /if }}
-                    </div>
-                    <!-- Dropdown Submenu for Mobile -->
-                    <div x-show="submenuOpen" class="w-full">
-                        {{ children }}
-                        <a href="{{ url }}" class="block text-sm mt-2 w-full py-4">{{ title }}</a>
-                        {{ /children }}
-                    </div>
-                </div>
-                {{ /nav:header_navigation }}
+    <!-- Dropdown Menu for Mobile -->
+    <div x-show="open" class="absolute h-auto shadow-md z-50  w-full left-0 bg-white ring-1 ring-black ring-opacity-5">
+        {{ nav:header_navigation }}
+        <div x-data="{ submenuOpen: false }" class="flex justify-between flex-col items-center px-4 py-4 border-gray border-b">
+            {{ entries }}
+            <div class="flex w-full justify-between">
+                <a href="{{ url }}" class="text-sm text-gray-700 hover:bg-gray-100">{{ title }}</a>
+                {{ if children }}
+                <button @click="submenuOpen = !submenuOpen">
+                    <img src="/images/arrow-down.svg" class="w-4 transform" :class="{ 'rotate-180': submenuOpen }">
+                </button>
+                {{ /if }}
             </div>
+            <!-- Dropdown Submenu for Mobile -->
+            <div x-show="submenuOpen" class="w-full">
+                {{ children }}
+                    {{ entries }}
+                        <a href="{{ url }}" class="block text-sm mt-2 w-full py-4">{{ title }}</a>
+                    {{ /entries }}    
+                {{ /children }}
+            </div>
+            {{ /entries }}
         </div>
+        {{ /nav:header_navigation }}
+    </div>
+</div>
+
 
         <!-- Language Switcher: On the right side with Alpine.js dropdown -->
         <div x-data="{ open: false }" class="relative language-switcher">

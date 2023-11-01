@@ -7,14 +7,16 @@
             <div class="flex flex-col gap-4">
                <h3 class="text-lg  text-white ">{{ footer_column_1:heading }}</h3>
                 <p class="font-light">{{ footer_column_1:text }}</p>
-                <a class="btn w-auto self-start btn-contrast font-light" href="{{ footer_column_1:url }}">SPENDEN</a>
+                <a class="btn w-auto self-start btn-contrast font-light" href="{{ footer_column_1:button }}">{{ trans:messages.Donate }}</a>
             </div>
 
             <!-- Second Column -->
             <div>
                 <nav>
                     {{ nav:footer_navigation }}
-                        <a href="{{ url }}" class="block uppercase font-light border-b border-gray-light py-2 hover:text-gray-300">{{ title }}</a>
+                        {{ entries }}
+                            <a href="{{ url }}" class="block uppercase font-light border-b border-gray-light py-2 hover:text-gray-300">{{ title }}</a>
+                         {{ /entries }}
                     {{ /nav:footer_navigation }}
                 </nav>
             </div>

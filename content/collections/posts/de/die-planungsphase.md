@@ -3,7 +3,7 @@ id: a75f0662-5229-45a1-ac2a-0ae4aac94f2a
 blueprint: post
 title: 'Die Planungsphase'
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1696968785
+updated_at: 1698855736
 featured_image: img_4522-1024x768-1.jpg
 excerpt: 'Die architektonische Planungsarbeit konnte mittlerweile abgeschlossen werden. Aus Kostengründen haben wir davon abgesehen, unser Gebäude gleich zweistöckig auszuführen zu lassen...'
 ---
