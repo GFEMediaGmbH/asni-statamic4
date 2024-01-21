@@ -3,8 +3,8 @@ id: 97b873b2-eddc-4282-a69f-1876ace785e6
 blueprint: post
 title: 'Die Anfänge'
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1705866078
-featured_image: image004-(3).jpg
+updated_at: 1705866572
+featured_image: group-40-(2).png
 excerpt: 'Erfreulicherweise nimmt die Entwicklung der Jugendmusikschule einen derart erfolgreichen Verlauf, dass dringend eigene und größere Räumlichkeiten gebraucht werden.'
 ---
 Erfreulicherweise nimmt die Entwicklung der Jugendmusikschule einen derart erfolgreichen Verlauf, dass dringend eigene und größere Räumlichkeiten gebraucht werden.
