@@ -37,17 +37,31 @@ repeater:
             content:
               -
                 type: text
-                text: 'The original idea of building on the existing primary school property couldn’t be implemented for different reasons. After a long search, an appropriate piece of land was found and bought.'
+                text: 'The transfer formalities, which were accompanied by a Moroccan notary, were expected to take some time, so we had assumed that we would be able to start building the music school at the beginning of 2020.'
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: start
             content:
               -
                 type: text
-                text: 'The formalities for the transfer of land at a notary will be finalized very soon. We are confident that we can start building the school at the beginning of 2020.'
+                text: 'In reality, however, work on our school building did not start until May 2023, as coronavirus and the German-Moroccan crisis over Western Sahara continued to hold us up. In the meantime, however, we are working at full speed, as the following pictures impressively show!'
+  -
+    type: set
+    attrs:
+      id: lrnwgytm
+      values:
+        type: images
+        images:
+          - asni-neubau-07.jpg
+          - asni-neubau-01.jpg
+          - asni-neubau-02.jpg
+          - asni-neubau-03.jpg
+          - asni-neubau-04.jpg
+          - image002-(2)-(1).jpg
+          - image003-(3).jpg
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1698854615
+updated_at: 1705865859
 ---

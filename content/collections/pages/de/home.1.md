@@ -3,7 +3,7 @@ id: 8ad39c76-92b6-456d-b8eb-b6ba9b343336
 blueprint: startseite
 title: Startseite
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1698867089
+updated_at: 1705865947
 template: home
 intro_boxes:
   -
@@ -41,7 +41,7 @@ images:
   - lghlafi.jpg
   - geschichte_content3-1024x768.jpg
   - img_4605-1-1024x768.jpg
-heading_donate: 'Online Spenden'
+heading_donate: Spenden
 text: 'Um unsere Arbeit verwirklichen zu können, brauchen wir die Unterstützung eines großen Kreises an Förderern. Mit Ihrem finanziellen Engagement stärken Sie unsere Arbeit und investieren in eine gute Idee! Unsere Online-Spenden wickeln wir dabei über PayPal ab. Natürlich gehen wir mit Ihren Daten vertraulich um!'
 donate_button: 'entry::17838e10-6c88-4fc0-bdd1-5e23eba86aab'
 stage_images:

@@ -30,8 +30,8 @@ intro_boxes:
         heading: 'Stiftung Media'
         link: 'entry::f75dedca-e617-41c2-8057-cebc5bdd4228'
         text: 'Stiftung Media, with its base in Stuttgart, is responsible for the operations and finances of the project. For many years, this foundation has supported a variety of social, economic, and ecological projects and is closely aligned with the artwork of Joseph Beuys and his idea of the “social sculpture”.'
-heading_donate: 'Online Donations'
+heading_donate: Donations
 text: 'To be able to realize our work, we need the support of a large circle of sponsors. With your financial commitment you strengthen our work and invest in a good idea! We process our online donations via PayPal. Of course we will handle your data confidentially!'
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1698863465
+updated_at: 1705865954
 ---

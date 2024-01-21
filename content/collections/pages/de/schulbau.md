@@ -13,6 +13,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 2
             content:
               -
@@ -20,6 +21,8 @@ repeater:
                 text: Schulbau
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -29,20 +32,39 @@ repeater:
                 text: 'ASNI SCHOOL OF MUSIC -SCHULBAU'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
-                text: 'Der ursprünglich auf dem Gelände der Grundschule in Asni geplante Schulbau konnte aus den verschiedensten Gründen dort nicht umgesetzt werden. Nach langer Suche wurde ein geeignetes Grundstück gefunden, das wir zwischenzeitlich erwerben konnten.'
+                text: 'Die von einem marokkanischen Notar begleiteten Übertragungsformalitäten sollten noch einige Zeit in Anspruch nehmen, so dass wir davon ausgegangen waren, Anfang 2020 mit dem Bau der Musikschule beginnen zu können.'
           -
             type: paragraph
+            attrs:
+              textAlign: start
             content:
               -
                 type: text
-                text: 'Die von einem marokkanischen Notar begleiteten Übertragungsformalitäten werden noch einige Zeit in Anspruch nehmen, so dass wir davon ausgehen, Anfang 2020 mit dem Bau der Musikschule beginnen zu können.'
+                text: 'Faktisch begannen die Arbeiten an unserem Schulgebäude allerdings erst im Mai 2023, Corona ebenso wie die deutsch-marok kanische Krise um die Westsahara hatten uns weiter aufgehalten. Mittlerweile sind wir allerdings mit Hochdruck bei der Arbeit, wie die nachfolgenden Bilder eindrücklich zeigen!'
+  -
+    type: set
+    attrs:
+      id: lrnwcv1r
+      values:
+        type: images
+        images:
+          - asni-neubau-07.jpg
+          - asni-neubau-01.jpg
+          - asni-neubau-02.jpg
+          - asni-neubau-03.jpg
+          - asni-neubau-04.jpg
+          - image003-(3).jpg
+          - image002-(2)-(1).jpg
+          - image004-(3)-1705865482.jpg
   -
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1697030924
+updated_at: 1705865784
 ---

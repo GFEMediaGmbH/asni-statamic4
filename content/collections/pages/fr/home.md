@@ -30,8 +30,8 @@ intro_boxes:
         heading: 'Stiftung Media'
         link: 'entry::f75dedca-e617-41c2-8057-cebc5bdd4228'
         text: 'Le sponsor organisationnel et financier du projet est la Fondation Stiftung Media, basée à Stuttgart, qui travaille depuis de nombreuses années à diverses tâches de renouveau social, économique et écologique et qui est étroitement liée au travail de l’artiste Joseph Beuys et à son idée de «sculpture sociale ». Le développement de l’école de musique pour les jeunes est heureusement tel qu’elle doit d’urgence disposer de son propre espace. Récemment, il a été possible d’acquérir un terrain convenable pour la construction de sa propre école. Les organisateurs espèrent alors trouver de nouveaux donateurs pour soutenir et agrandir cette école de musique.'
-heading_donate: 'Don En Ligne'
+heading_donate: Dons
 text: "Pour pouvoir réaliser notre travail, nous avons besoin du soutien d'un large cercle de sponsors. Avec votre engagement financier, vous renforcez notre travail et investissez dans une bonne idée ! Nous traitons nos dons en ligne via PayPal. Bien entendu, nous traiterons vos données de manière confidentielle!"
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1698850418
+updated_at: 1705865980
 ---
