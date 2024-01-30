@@ -87,6 +87,8 @@ repeater:
         content:
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -99,6 +101,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -108,6 +112,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -117,6 +123,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -126,21 +134,33 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
                         text: 'Fächerangebot geplant:'
                   -
-                    type: paragraph
+                    type: bulletList
                     content:
                       -
-                        type: text
-                        text: 'Gitarre, Flöte, Piano, Schlagzeug, Keyboard, Ouds, Violine, Cello, Contrabass'
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Gitarre, Flöte, Piano, Schlagzeug, Keyboard, Ouds, Violine, Cello, Contrabass'
               -
                 type: listItem
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -150,6 +170,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -159,6 +181,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -168,5 +192,5 @@ repeater:
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706570586
+updated_at: 1706605189
 ---

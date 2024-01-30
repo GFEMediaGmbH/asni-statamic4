@@ -108,47 +108,7 @@ repeater:
                     content:
                       -
                         type: text
-                        text: '• Teaching which is well-rounded and appropriate for children'
-                  -
-                    type: paragraph
-                    attrs:
-                      textAlign: left
-                    content:
-                      -
-                        type: text
-                        text: '• Teacher is pedagogically and artistically qualified'
-                  -
-                    type: paragraph
-                    attrs:
-                      textAlign: left
-                    content:
-                      -
-                        type: text
-                        text: '• Subjects offered at present:'
-                  -
-                    type: paragraph
-                    attrs:
-                      textAlign: left
-                    content:
-                      -
-                        type: text
-                        text: '   Guitar, piano, drums, keyboard, oud, banjo'
-                  -
-                    type: paragraph
-                    attrs:
-                      textAlign: left
-                    content:
-                      -
-                        type: text
-                        text: '• Additional subjects planned for the future:'
-                  -
-                    type: paragraph
-                    attrs:
-                      textAlign: left
-                    content:
-                      -
-                        type: text
-                        text: '   Flute, violin, cello, bass'
+                        text: 'Teaching which is well-rounded and appropriate for children'
               -
                 type: listItem
                 content:
@@ -159,7 +119,10 @@ repeater:
                     content:
                       -
                         type: text
-                        text: '• Support for gifted students through solo and group concerts'
+                        text: 'Teacher is pedagogically and artistically qualified'
+              -
+                type: listItem
+                content:
                   -
                     type: paragraph
                     attrs:
@@ -167,7 +130,24 @@ repeater:
                     content:
                       -
                         type: text
-                        text: '• Ensemble work for pupils of different abilities and age groups'
+                        text: 'Subjects offered at present:'
+                  -
+                    type: bulletList
+                    content:
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Guitar, piano, drums, keyboard, oud, banjo'
+              -
+                type: listItem
+                content:
                   -
                     type: paragraph
                     attrs:
@@ -175,9 +155,56 @@ repeater:
                     content:
                       -
                         type: text
-                        text: '• Concerts, musical events, music sessions'
+                        text: 'Additional subjects planned for the future:'
+                  -
+                    type: bulletList
+                    content:
+                      -
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Flute, violin, cello, bass'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      textAlign: left
+                    content:
+                      -
+                        type: text
+                        text: 'Support for gifted students through solo and group concerts'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      textAlign: left
+                    content:
+                      -
+                        type: text
+                        text: 'Ensemble work for pupils of different abilities and age groups'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      textAlign: left
+                    content:
+                      -
+                        type: text
+                        text: 'Concerts, musical events, music sessions'
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572103
+updated_at: 1706605172
 ---

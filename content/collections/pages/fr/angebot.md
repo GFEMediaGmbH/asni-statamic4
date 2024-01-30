@@ -131,11 +131,20 @@ repeater:
                       -
                         type: text
                         text: 'Offre en cours:'
+                  -
+                    type: bulletList
+                    content:
                       -
-                        type: hardBreak
-                      -
-                        type: text
-                        text: 'guitare, piano, batterie, clavier, oud, banjo'
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'guitare, piano, batterie, clavier, oud, banjo'
               -
                 type: listItem
                 content:
@@ -147,11 +156,20 @@ repeater:
                       -
                         type: text
                         text: 'Offre prévue:'
+                  -
+                    type: bulletList
+                    content:
                       -
-                        type: hardBreak
-                      -
-                        type: text
-                        text: 'guitare, flute, piano, batterie, clavier, ouds, violon, violoncelle, contrebasse'
+                        type: listItem
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'guitare, flute, piano, batterie, clavier, ouds, violon, violoncelle, contrebasse'
               -
                 type: listItem
                 content:
@@ -188,5 +206,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572105
+updated_at: 1706605199
 ---
