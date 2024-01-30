@@ -60,7 +60,7 @@ repeater:
                   -
                     type: link
                     attrs:
-                      href: /de/posts/erdbeben-in-marokko
+                      href: /posts/erdbeben-in-marokko
                       rel: null
                       target: _blank
                       title: null
@@ -87,5 +87,5 @@ repeater:
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706569971
+updated_at: 1706601777
 ---

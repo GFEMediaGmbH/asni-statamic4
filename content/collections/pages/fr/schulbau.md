@@ -57,7 +57,7 @@ repeater:
                   -
                     type: link
                     attrs:
-                      href: /fr/fr/posts/tremblement-de-terre-au-maroc
+                      href: /fr/posts/erdbeben-in-marokko
                       rel: null
                       target: _blank
                       title: null
@@ -82,5 +82,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572199
+updated_at: 1706601868
 ---
