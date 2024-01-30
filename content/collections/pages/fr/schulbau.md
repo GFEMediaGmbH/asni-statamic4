@@ -1,7 +1,7 @@
 ---
-id: b0af81b9-e5ab-4dbc-ae69-5e03165ac4a9
-blueprint: page
-title: Schulbau
+id: 0b698679-83b1-4db1-a628-651fcd04ba16
+origin: b0af81b9-e5ab-4dbc-ae69-5e03165ac4a9
+title: 'Construction scolaire'
 repeater:
   -
     type: set
@@ -18,7 +18,7 @@ repeater:
             content:
               -
                 type: text
-                text: Schulbau
+                text: 'Construction scolaire'
           -
             type: paragraph
             attrs:
@@ -29,23 +29,12 @@ repeater:
                 marks:
                   -
                     type: bold
-                text: 'ASNI SCHOOL OF MUSIC -SCHULBAU'
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
+                text: 'LA CONSTRUCTION DE L’ECOLE DE MUSIQUE D’ASNI'
+              -
+                type: hardBreak
               -
                 type: text
-                text: 'Die von einem marokkanischen Notar begleiteten Übertragungsformalitäten sollten noch einige Zeit in Anspruch nehmen, so dass wir davon ausgegangen waren, Anfang 2020 mit dem Bau der Musikschule beginnen zu können.'
-          -
-            type: paragraph
-            attrs:
-              textAlign: start
-            content:
-              -
-                type: text
-                text: 'Faktisch begannen die Arbeiten an unserem Schulgebäude allerdings erst im Mai 2023, Corona ebenso wie die deutsch-marok kanische Krise um die Westsahara hatten uns weiter aufgehalten. Mittlerweile sind wir allerdings mit Hochdruck bei der Arbeit, wie die nachfolgenden Bilder eindrücklich zeigen!'
+                text: "Les formalités de transfert, accompagnées par un notaire marocain, prendront encore un certain temps, si bien que nous pensions pouvoir commencer la construction de l'école de musique début 2020."
           -
             type: paragraph
             attrs:
@@ -53,39 +42,45 @@ repeater:
             content:
               -
                 type: text
-                text: 'Die Arbeit sollte allerdings dramatisch durch das '
+                text: "En réalité, les travaux de notre école n'ont commencé qu'en mai 2023, la Corona et la crise germano-marocaine autour du Sahara occidental nous ayant encore retardés. Entre-temps, nous nous sommes mis au travail, comme le montrent les photos suivantes !"
+          -
+            type: paragraph
+            attrs:
+              textAlign: start
+            content:
+              -
+                type: text
+                text: 'Le travail devait toutefois être dramatiquement interrompu par le '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: /de/posts/erdbeben-in-marokko
+                      href: /fr/fr/posts/tremblement-de-terre-au-maroc
                       rel: null
                       target: _blank
                       title: null
-                text: 'große Erdbeben in der Region'
+                text: 'grand tremblement de terre dans la région'
               -
                 type: text
-                text: ' unterbrochen werden, geht aber mittlerweile wieder aktiv weiter!  '
+                text: ', mais il se poursuit à nouveau activement entre-temps !'
   -
     type: set
     attrs:
-      id: lrnwcv1r
+      id: lrnwho6u
       values:
         type: images
         images:
-          - asni-neubau-07.jpg
+          - image001-(7).jpg
           - asni-neubau-01.jpg
           - asni-neubau-02.jpg
           - asni-neubau-03.jpg
           - asni-neubau-04.jpg
-          - image003-(3).jpg
           - image002-(2)-(1).jpg
+          - image003-(3).jpg
   -
     type: paragraph
-author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706569971
+updated_at: 1706572199
 ---

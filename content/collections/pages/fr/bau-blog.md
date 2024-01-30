@@ -1,7 +1,6 @@
 ---
-id: a4ce27f2-4b20-4378-bd40-fc98c682c01b
+id: 0670016a-ee98-420c-9a59-8e75c23f6a11
 origin: bc431a25-4f26-4ef8-9e30-c9c1c9f10c41
-published: false
 title: 'Blog sur la construction'
 repeater:
   -
@@ -23,5 +22,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706570788
+updated_at: 1706572122
 ---

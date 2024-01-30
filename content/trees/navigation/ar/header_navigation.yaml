@@ -23,13 +23,6 @@ tree:
     data:
       entries:
         - c26a3ac8-78ea-4a8a-ad33-0c398be09c24
-    children:
-      -
-        id: dc785e4f-7a0f-4655-9f1e-e23eaa583ba1
-        title: 'Blog sur la construction'
-        data:
-          entries:
-            - a4ce27f2-4b20-4378-bd40-fc98c682c01b
   -
     id: 39e9f66c-b9b4-4e64-ad7d-bf8a65d34fe1
     title: Amarg
@@ -42,13 +35,6 @@ tree:
     data:
       entries:
         - 2776d9a4-630c-410d-a77f-220023bdcae2
-    children:
-      -
-        id: 61da8e75-41d2-4c28-802c-763141216a63
-        title: 'Blog sur la construction'
-        data:
-          entries:
-            - a4ce27f2-4b20-4378-bd40-fc98c682c01b
   -
     id: 2f7dbaf6-7aed-469f-81d3-dcf9540d7713
     title: Galerie

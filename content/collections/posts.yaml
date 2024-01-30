@@ -9,10 +9,10 @@ template: post
 layout: layout
 revisions: false
 route:
-  de: '/de/posts/{slug}'
-  ar: '/ar/posts/{slug}'
-  en: '/en/posts/{slug}'
-  fr: '/fr/posts/{slug}'
+  de: '/posts/{slug}'
+  ar: '/posts/{slug}'
+  en: '/posts/{slug}'
+  fr: '/posts/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

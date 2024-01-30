@@ -1,7 +1,7 @@
 ---
-id: b0af81b9-e5ab-4dbc-ae69-5e03165ac4a9
-blueprint: page
-title: Schulbau
+id: b3f82944-48d4-463b-9069-75b2f01e137f
+origin: b0af81b9-e5ab-4dbc-ae69-5e03165ac4a9
+title: 'School construction'
 repeater:
   -
     type: set
@@ -18,7 +18,7 @@ repeater:
             content:
               -
                 type: text
-                text: Schulbau
+                text: 'School construction'
           -
             type: paragraph
             attrs:
@@ -29,7 +29,7 @@ repeater:
                 marks:
                   -
                     type: bold
-                text: 'ASNI SCHOOL OF MUSIC -SCHULBAU'
+                text: 'ASNI SCHOOL OF MUSIC - BUILDING THE SCHOOL'
           -
             type: paragraph
             attrs:
@@ -37,7 +37,7 @@ repeater:
             content:
               -
                 type: text
-                text: 'Die von einem marokkanischen Notar begleiteten Übertragungsformalitäten sollten noch einige Zeit in Anspruch nehmen, so dass wir davon ausgegangen waren, Anfang 2020 mit dem Bau der Musikschule beginnen zu können.'
+                text: 'The transfer formalities, which were accompanied by a Moroccan notary, were expected to take some time, so we had assumed that we would be able to start building the music school at the beginning of 2020.'
           -
             type: paragraph
             attrs:
@@ -45,7 +45,7 @@ repeater:
             content:
               -
                 type: text
-                text: 'Faktisch begannen die Arbeiten an unserem Schulgebäude allerdings erst im Mai 2023, Corona ebenso wie die deutsch-marok kanische Krise um die Westsahara hatten uns weiter aufgehalten. Mittlerweile sind wir allerdings mit Hochdruck bei der Arbeit, wie die nachfolgenden Bilder eindrücklich zeigen!'
+                text: 'In reality, however, work on our school building did not start until May 2023, as coronavirus and the German-Moroccan crisis over Western Sahara continued to hold us up. In the meantime, however, we are working at full speed, as the following pictures impressively show!'
           -
             type: paragraph
             attrs:
@@ -53,25 +53,25 @@ repeater:
             content:
               -
                 type: text
-                text: 'Die Arbeit sollte allerdings dramatisch durch das '
+                text: 'However, the work was dramatically interrupted by the '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: /de/posts/erdbeben-in-marokko
+                      href: /en/en/posts/earthquake-in-morocco
                       rel: null
                       target: _blank
                       title: null
-                text: 'große Erdbeben in der Region'
+                text: 'major earthquake in the region'
               -
                 type: text
-                text: ' unterbrochen werden, geht aber mittlerweile wieder aktiv weiter!  '
+                text: ', but is now actively continuing again! (Link zum oben genannten neuen Blog-Artikel)'
   -
     type: set
     attrs:
-      id: lrnwcv1r
+      id: lrnwgytm
       values:
         type: images
         images:
@@ -80,12 +80,10 @@ repeater:
           - asni-neubau-02.jpg
           - asni-neubau-03.jpg
           - asni-neubau-04.jpg
-          - image003-(3).jpg
           - image002-(2)-(1).jpg
+          - image003-(3).jpg
   -
     type: paragraph
-author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706569971
+updated_at: 1706572196
 ---
