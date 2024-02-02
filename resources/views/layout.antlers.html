@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="/css/app.css">
     </head>
    
-    <body class="">
+    <body class="{{ if segment_1 }}page-{{ segment_1 }}{{ else }}home{{ /if }}">
         {{ partial:partials/header }}
         <div class="lg:min-h-screen">
             {{ template_content }}

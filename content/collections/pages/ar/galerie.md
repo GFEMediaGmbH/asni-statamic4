@@ -18,18 +18,15 @@ repeater:
             content:
               -
                 type: text
-                text: Galerie
+                text: معرض
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: start
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Impressions de l’école de musique Asni'
+                text: 'انطباعات من مدرسة أسني للموسيقى'
   -
     type: set
     attrs:
@@ -44,5 +41,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706877557
+updated_at: 1706879022
 ---

@@ -653,6 +653,9 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -670,6 +673,9 @@ video {
 }
 .mt-6 {
   margin-top: 1.5rem;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -709,6 +715,9 @@ video {
 }
 .h-full {
   height: 100%;
+}
+.min-h-screen {
+  min-height: 100vh;
 }
 .w-16 {
   width: 4rem;
@@ -758,6 +767,9 @@ video {
 }
 .justify-start {
   justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
@@ -1050,7 +1062,7 @@ video {
   font-size: 16px;
 }
 
-:lang(ar) {
+body:not(.page-cookies):not(.page-datenschutzerklaerung):not(.page-impressum):lang(ar) {
   direction: rtl;
   text-align: right;
 }

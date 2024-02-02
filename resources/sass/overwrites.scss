@@ -83,11 +83,10 @@
 }
 
 
-:lang(ar) {
+body:not(.page-cookies):not(.page-datenschutzerklaerung):not(.page-impressum):lang(ar) {
     direction: rtl;
     text-align: right; 
 }
-
 
 :lang(ar) .home-three-images-title h3{
     text-align: left;

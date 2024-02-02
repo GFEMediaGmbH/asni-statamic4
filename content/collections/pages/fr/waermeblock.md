@@ -136,18 +136,18 @@ repeater:
             content:
               -
                 type: text
-                text: "Les «\_déchets de roses\_» iraniens aident à a"
+                text: "Les «\_déchets de roses\_» iraniens aident à "
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'pporter de nouveaux espoirs'
+                text: 'apporter de nouveaux espoirs'
               -
                 type: text
                 text: " et perspectives au monde en tant dons d’or en paille de roses lors de divers évènements artistiques. Le projet représente également une «sculpture sociale» comme moyen pour encourager les gens à s'impliquer dans le développement de la réalité sociale. La sculpture sociale fait référence aux processus de transformation au sens de formations sculpturales dans la sculpture vivante des sociétés modernes dans le but de faire de chaque individu un co-créateur de son avenir culturel, social, juridique et économique : «\_Chaque personne un artiste\_»."
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572244
+updated_at: 1706878641
 ---
