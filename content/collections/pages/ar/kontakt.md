@@ -1,7 +1,7 @@
 ---
 id: d17e3e00-881d-4733-8258-aab24d986294
 origin: a55709a8-fa59-4032-b7cf-c6a27c15dd37
-title: Contact
+title: اتصال
 repeater:
   -
     type: set
@@ -18,7 +18,7 @@ repeater:
             content:
               -
                 type: text
-                text: Contact
+                text: الاتصال
           -
             type: paragraph
             attrs:
@@ -26,78 +26,47 @@ repeater:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'ASNI SCHOOL OF MUSIC, Marokko'
+                text: 'مدرسة أسني للموسيقى، المغرب'
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: start
             content:
               -
                 type: text
-                text: 'AMARG Association for Education, Culture and the Arts,'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'جمعية أمارك للتربية للتربية للتربية ، الثقافة الثقافة الثقافة الثقافة و و الفنون'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: "Asni 42152 CT und caidat d'Asni Provinz Al Haouz"
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Königreich Marokko'
+                text: 'جمعية أمارج للتعليم والثقافة والفنون أسني 42152 CT وقيادة أسني، إقليم الحوز المملكة المغربية'
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: start
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Kontakt Stuttgart, Deutschland'
+                text: 'الاتصال شتوتغارت، ألمانيا'
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: start
             content:
               -
                 type: text
-                text: 'Stiftung Media'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Salzmannweg 14'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: '70192 Stuttgart'
+                text: 'مؤسسة ميديا سالزمانفيغ 14 70192 شتوتغارت'
           -
             type: paragraph
             attrs:
-              textAlign: left
+              textAlign: start
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Spendenkonto Jugendmusikschule Asni:'
-              -
-                type: hardBreak
+                text: 'حساب التبرع لمدرسة الموسيقى الشبابية في أسني: '
+          -
+            type: paragraph
+            attrs:
+              textAlign: start
+            content:
               -
                 type: text
-                text: 'IBAN: DE11 6105 0000 0049 0733 59'
+                text: 'IBAN: DE11 6105 0000 0049 0733 59 '
               -
                 type: hardBreak
               -
@@ -107,24 +76,9 @@ repeater:
                 type: hardBreak
               -
                 type: text
-                text: 'Kreissparkasse Göppingen'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Marktstr. 2'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: '73033 Göppingen'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: Germany
+                text: 'كرايسسباركاسه غوبينغن ماركتشتر. 2 73033 غوبينغن ألمانيا'
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572189
+updated_at: 1706878337
 ---

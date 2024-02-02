@@ -1,6 +1,7 @@
 ---
 id: c98bebab-f7e5-4024-817e-d23ad6662fb6
 origin: 62e5c8a6-5813-41fc-83e0-9f6e5694fafa
+title: 'فريق أسني'
 repeater:
   -
     type: set
@@ -124,5 +125,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572228
+updated_at: 1706877470
 ---

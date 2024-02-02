@@ -12,7 +12,7 @@ tabs:
               type: text
               display: Heading
               icon: text
-              localizable: false
+              localizable: true
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -25,7 +25,7 @@ tabs:
               type: textarea
               display: Text
               icon: textarea
-              localizable: false
+              localizable: true
               listable: hidden
               instructions_position: above
               visibility: visible

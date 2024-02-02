@@ -1,7 +1,7 @@
 ---
 id: 7c241495-7881-4131-b498-c66f4a49a9fe
 origin: e04b8a4a-d35c-4fb6-99cf-8bba44df404c
-title: Imprint
+title: بصمة
 repeater:
   -
     type: set
@@ -364,5 +364,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706876738
+updated_at: 1706877566
 ---

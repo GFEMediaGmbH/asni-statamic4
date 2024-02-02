@@ -1,7 +1,7 @@
 ---
 id: 3394c8c8-f557-45f2-842e-472f6f8246f4
 origin: c934a239-612b-482c-af94-58834906d764
-title: 'Privacy Policy'
+title: 'سياسة الخصوصية'
 repeater:
   -
     type: set
@@ -621,5 +621,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706876920
+updated_at: 1706877547
 ---

@@ -1,6 +1,7 @@
 ---
 id: 282f1e87-3840-4baf-a920-14a598db0c30
 origin: 5042adc4-6954-4abe-bc19-7f9ec0be9813
+title: كوكيز
 repeater:
   -
     type: set
@@ -722,5 +723,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572137
+updated_at: 1706877536
 ---

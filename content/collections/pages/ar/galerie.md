@@ -1,7 +1,7 @@
 ---
 id: 7ab657da-9437-455f-b869-550e82a26f9d
 origin: 1873e5db-9ecc-4d68-a7fc-6aed1d89dc88
-title: Galerie
+title: معرض
 repeater:
   -
     type: set
@@ -44,5 +44,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572163
+updated_at: 1706877557
 ---

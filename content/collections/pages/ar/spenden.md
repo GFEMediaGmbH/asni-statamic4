@@ -13,65 +13,82 @@ repeater:
           -
             type: heading
             attrs:
-              textAlign: right
+              textAlign: left
               level: 2
-            content:
-              -
-                type: text
-                text: تبرع
-          -
-            type: paragraph
-            attrs:
-              textAlign: right
             content:
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'اﻟﻬﺒﺎت و اﻟﻤﺴﺎﻫﻤﺎت'
+                text: التبرعات
           -
             type: paragraph
             attrs:
-              textAlign: right
+              textAlign: start
             content:
               -
                 type: text
-                text: 'ﻷﺟﻞ ﺗﺤﻘﻴﻖ أﻫﺪاﻓﻨﺎ ﻓﺈﻧﻨﺎ ﻓﻲ ﺣﺎﺟﺔ إﻟﻰ ﻣﺪﻋﻤﻴﻦ و ﻛﻔﻼء ﻟﻠﻤﺸﺮوع . ﺑﺈﻟﺘﺰاﻣﻜﻢ اﻟﻤﺎدي ﺳﺘﺸﺠﻌﻮﻧﻨﺎ و ﺳﺘﻄﻮرون ﻋﻤﻠﻨﺎ و ﺳﺘﺴﺘﺜﻤﺮون ﻓﻲ ﻓﻜﺮة ﺟﺪﻳﺪة و ﺑﻨﺎءة. إﻧﻨﺎ ﻧﺘﻮﺻﻞ ﺑﺎﻟﻬﺒﺎت ﻋﻦ ﻃﺮﻳﻖ اﻻﻧﺘﺮﻧﺖ. و ذﻟﻚ ﺑﻄﺮﻳﻘﺔ ﻣﺤﻔﻈﺔ و ﻣﺤﻤﻴﺔ . ﺣﻴﺚ ﻳﻤﻜﻨﻜﻢ دﻋﻤﻨﺎ ﻋﺒﺮ اﻟﺒﻮابة'
+                text: 'مدرسة أسني للموسيقى'
           -
             type: paragraph
             attrs:
-              textAlign: right
+              textAlign: start
             content:
               -
                 type: text
-                text: 'ﺟﻤﻌﻴﺔ أﻣﺎرك ﻟﻠﺘﺮﺑﻴﺔ و اﻟﺜﻘﺎﻓﺔ و اﻟﻔﻨﻮن'
+                text: 'لكي نتمكن من تحقيق عملنا، نحتاج إلى دعم من دائرة واسعة من الممولين. من خلال التزامكم المالي، تقوون عملنا وتستثمرون في فكرة جيدة! نحن نتعامل مع التبرعات عبر الإنترنت من خلال PayPal. بالطبع، نتعامل مع بياناتكم بسرية تامة!'
           -
             type: paragraph
             attrs:
-              textAlign: right
+              textAlign: start
             content:
               -
                 type: text
-                text: 'ﺻﻨﺪوق اﻟﺒﺮﻳﺪ 42152'
+                text: 'إلى سياسة الخصوصية'
           -
             type: paragraph
             attrs:
-              textAlign: right
+              textAlign: start
             content:
               -
                 type: text
-                text: 'ﻗﻴﺎدة آﺳني'
+                text: 'يمكنكم أيضًا التحويل المباشر إلى حساب التبرعات الخاص بنا:'
           -
             type: paragraph
             attrs:
-              textAlign: right
+              textAlign: start
             content:
               -
                 type: text
-                text: 'ﻋﻤﺎﻟﺔ إﻗﻠﻴﻢ اﻟﺤﻮز'
+                text: 'حساب التبرع لمدرسة الموسيقى الشبابية في أسني:'
+          -
+            type: paragraph
+            attrs:
+              textAlign: start
+            content:
+              -
+                type: text
+                text: 'صاحب الحساب: مؤسسة ميديا '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'IBAN: DE11 6105 0000 0049 0733 59 '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'BIC: GOPSDE6GXXX '
+              -
+                type: hardBreak
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'كرايسسباركاسه غوبينغن، ماركتشتر. 2، D-73033 غوبينغن، ألمانيا'
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706877137
+updated_at: 1706877858
 ---

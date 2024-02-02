@@ -61,16 +61,17 @@
 </div>
 
 <!--Posts-->
-<div class="py-12 px-4 mb-24 container flex flex-col md:flex-row gap-12"> 
-{{ collection:posts  }}
-  <div class="flex  flex-col gap-4 bg-white shadow-lg">
-      <img class="max-w-100" src="{{ featured_image }}">
-      <div class="px-4 pb-4">
-         <h4 class="text-black font-medium">{{ title }}</h4>
+{{ if {collection:posts} }}
+  <div class="py-12 px-4 mb-24 container flex flex-col md:flex-row gap-12">
+    {{ collection:posts }}
+      <div class="flex flex-col gap-4 bg-white shadow-lg">
+        <img class="max-w-100" src="{{ featured_image }}">
+        <div class="px-4 pb-4">
+          <h4 class="text-black font-medium">{{ title }}</h4>
           <p class="text-sm">{{ excerpt }}</p>
-          <a class="font-bold text-secondary  py-2 hover:text-primary" href="{{ url }}">{{ trans:messages.Readmore }}</a>
+          <a class="font-bold text-secondary py-2 hover:text-primary" href="{{ url }}">{{ trans:messages.Readmore }}</a>
+        </div>
       </div>
+    {{ /collection:posts }}
   </div>
-   
-{{ /collection:posts }}
-</div>
+{{ /if }}
