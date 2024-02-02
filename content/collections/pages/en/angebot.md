@@ -131,20 +131,17 @@ repeater:
                       -
                         type: text
                         text: 'Subjects offered at present:'
+              -
+                type: listItem
+                content:
                   -
-                    type: bulletList
+                    type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
-                        type: listItem
-                        content:
-                          -
-                            type: paragraph
-                            attrs:
-                              textAlign: left
-                            content:
-                              -
-                                type: text
-                                text: 'Guitar, piano, drums, keyboard, oud, banjo'
+                        type: text
+                        text: 'Guitar, piano, drums, keyboard, oud, banjo'
               -
                 type: listItem
                 content:
@@ -156,20 +153,17 @@ repeater:
                       -
                         type: text
                         text: 'Additional subjects planned for the future:'
+              -
+                type: listItem
+                content:
                   -
-                    type: bulletList
+                    type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
-                        type: listItem
-                        content:
-                          -
-                            type: paragraph
-                            attrs:
-                              textAlign: left
-                            content:
-                              -
-                                type: text
-                                text: 'Flute, violin, cello, bass'
+                        type: text
+                        text: 'Flute, violin, cello, bass'
               -
                 type: listItem
                 content:
@@ -206,5 +200,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706605172
+updated_at: 1706875493
 ---

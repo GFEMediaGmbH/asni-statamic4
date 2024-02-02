@@ -1,6 +1,7 @@
 ---
 id: 7859dffe-9985-4a1e-8694-d8dee9057e87
 origin: ae602a35-9dac-409a-873e-cfdf08f20d89
+title: آمارج
 repeater:
   -
     type: set
@@ -17,7 +18,7 @@ repeater:
             content:
               -
                 type: text
-                text: Amarg
+                text: آمارج
           -
             type: paragraph
             attrs:
@@ -81,5 +82,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572061
+updated_at: 1706876048
 ---

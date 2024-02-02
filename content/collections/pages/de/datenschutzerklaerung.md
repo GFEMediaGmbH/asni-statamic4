@@ -13,6 +13,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 2
             content:
               -
@@ -21,6 +22,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -28,6 +30,8 @@ repeater:
                 text: '1. Einleitung'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -35,6 +39,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -42,6 +47,8 @@ repeater:
                 text: '2. Kontaktinformationen'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -51,6 +58,8 @@ repeater:
                 text: "Verantwortliche Stelle im Sinne des Datenschutzrechts\_"
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -65,6 +74,11 @@ repeater:
               -
                 type: text
                 text: '70192 Stutttgart'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: Deutschland
               -
                 type: hardBreak
               -
@@ -84,6 +98,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -91,6 +106,8 @@ repeater:
                 text: '3. Datenverarbeitung durch den Besuch unserer Website'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -103,6 +120,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -112,6 +131,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -121,6 +142,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -130,6 +153,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -139,6 +164,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -148,6 +175,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -157,6 +186,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -166,18 +197,24 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
                         text: 'Übertragene Datenmenge'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Die aufgelisteten Daten erheben wir, um einen reibungslosen Verbindungsaufbau der Website zu gewährleisten und eine komfortable Nutzung unserer Website durch die Nutzer zu ermöglichen. Zudem dient die Logdatei der Auswertung der Systemsicherheit und -stabilität sowie administrativen Zwecken. Rechtsgrundlage für die vorübergehende Speicherung der Daten bzw. der Logfiles ist Art. 6 Abs. 1 lit. f DSGVO.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -185,6 +222,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -192,18 +230,24 @@ repeater:
                 text: '4. Datenverarbeitung bei Kontaktaufnahme via Kontaktformular oder E-Mail'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Wenn Sie uns per Kontaktformular oder E-Mail Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular bzw. Ihrer E-Mail inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Diese Daten geben wir in keinem Fall ohne Ihre Einwilligung weiter. Rechtsgrundlage für die Verarbeitung der Daten ist unser berechtigtes Interesse an der Beantwortung Ihres Anliegens gemäß Art. 6 Abs. 1 lit. f DSGVO sowie ggf. Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf den Abschluss eines Vertrages abzielt.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -211,6 +255,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -218,6 +263,8 @@ repeater:
                 text: '5. Webanalyse und Werbetracking'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -227,12 +274,16 @@ repeater:
                 text: "Google Analytics\_"
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Unsere Website benutzt Google Analytics, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland („Google“). Google Analytics verwendet sogenannte Cookies. Das sind Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Wir setzen Google Analytics nur mit aktivierter IP-Anonymisierung ein. Das bedeutet, die IP-Adresse der Nutzer wird von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt, wodurch eine Personenbeziehbarkeit ausgeschlossen werden kann. Google Inc. mit Sitz in den USA ist für das US-europäische Datenschutzübereinkommen „Privacy Shield“ zertifiziert, welches die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleistet. Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO bzw. § 15 Abs. 3 TMG auf Grundlage unseres berechtigten Interesses an der statistischen Analyse des Nutzerverhaltens zu Optimierungs- und Marketingzwecken.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -267,6 +318,8 @@ repeater:
                 text: ' Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -298,6 +351,8 @@ repeater:
                 text: 'Deaktivierung von Google Analytics'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -316,6 +371,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -323,6 +379,8 @@ repeater:
                 text: '6. Datenweitergabe und Empfänger'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -335,6 +393,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -344,6 +404,8 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -353,12 +415,16 @@ repeater:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
                         text: 'im Falle, dass für die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. c DSGVO eine gesetzliche Verpflichtung besteht und'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -366,6 +432,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -373,6 +440,8 @@ repeater:
                 text: '7. Dauer der Speicherung personenbezogener Daten'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -380,6 +449,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -387,54 +457,72 @@ repeater:
                 text: '8. Ihre Rechte'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Im Folgenden finden Sie Informationen dazu, welche Betroffenenrechte das geltende Datenschutzrecht Ihnen gegenüber dem Verantwortlichen hinsichtlich der Verarbeitung Ihrer personenbezogenen Daten gewährt:'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Das Recht, gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere können Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft ihrer Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Das Recht, gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Das Recht, gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Das Recht, gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von Ihnen bestritten wird, die Verarbeitung unrechtmäßig ist, Sie aber deren Löschung ablehnen und wir die Daten nicht mehr benötigen, Sie jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen oder Sie gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung eingelegt haben.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Das Recht, gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Das Recht, sich gemäß Art. 77 DSGVO bei einer Aufsichtsbehörde zu beschweren. In der Regel können Sie sich hierfür an die Aufsichtsbehörde des Bundeslandes unseres oben angegebenen Sitzes oder ggf. die Ihres üblichen Aufenthaltsortes oder Arbeitsplatzes wenden.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Recht auf Widerruf erteilter Einwilligungen gemäß Art. 7 Abs. 3 DSGVO: Sie haben das Recht, eine einmal erteilte Einwilligung in die Verarbeitung von Daten jederzeit mit Wirkung für die Zukunft zu widerrufen. Im Falle des Widerrufs werden wir die betroffenen Daten unverzüglich löschen, sofern eine weitere Verarbeitung nicht auf eine Rechtsgrundlage zur einwilligungslosen Verarbeitung gestützt werden kann. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -444,6 +532,8 @@ repeater:
                 text: "Widerspruchsrecht\_"
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -473,6 +563,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -480,12 +571,16 @@ repeater:
                 text: '9. Änderungen unserer Datenschutzerklärung'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Wir behalten uns vor, diese Datenschutzerklärung erforderlichenfalls unter Beachtung der geltenden Datenschutzvorschriften anzupassen bzw. zu aktualisieren. Auf diese Weise können wir sie den den aktuellen rechtlichen Anforderungen anpassen und Änderungen unserer Leistungen berücksichtigen, z. B. bei der Einführung neuer Services. Für Ihren Besuch gilt die jeweils aktuellste Fassung.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -494,5 +589,5 @@ repeater:
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1698853639
+updated_at: 1706876805
 ---

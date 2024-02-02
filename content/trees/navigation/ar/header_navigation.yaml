@@ -35,6 +35,13 @@ tree:
     data:
       entries:
         - 2776d9a4-630c-410d-a77f-220023bdcae2
+    children:
+      -
+        id: 00617d67-e0e3-4323-a401-684bd052f57f
+        title: Wärmeblock
+        data:
+          entries:
+            - 2aabfc52-bc14-47c8-96f6-ab38a58d29cc
   -
     id: 2f7dbaf6-7aed-469f-81d3-dcf9540d7713
     title: Galerie

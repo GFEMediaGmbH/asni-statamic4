@@ -131,20 +131,17 @@ repeater:
                       -
                         type: text
                         text: 'Offre en cours:'
+              -
+                type: listItem
+                content:
                   -
-                    type: bulletList
+                    type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
-                        type: listItem
-                        content:
-                          -
-                            type: paragraph
-                            attrs:
-                              textAlign: left
-                            content:
-                              -
-                                type: text
-                                text: 'guitare, piano, batterie, clavier, oud, banjo'
+                        type: text
+                        text: 'guitare, piano, batterie, clavier, oud, banjo'
               -
                 type: listItem
                 content:
@@ -156,20 +153,17 @@ repeater:
                       -
                         type: text
                         text: 'Offre prévue:'
+              -
+                type: listItem
+                content:
                   -
-                    type: bulletList
+                    type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
-                        type: listItem
-                        content:
-                          -
-                            type: paragraph
-                            attrs:
-                              textAlign: left
-                            content:
-                              -
-                                type: text
-                                text: 'guitare, flute, piano, batterie, clavier, ouds, violon, violoncelle, contrebasse'
+                        type: text
+                        text: 'guitare, flute, piano, batterie, clavier, ouds, violon, violoncelle, contrebasse'
               -
                 type: listItem
                 content:
@@ -206,5 +200,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706605199
+updated_at: 1706875503
 ---

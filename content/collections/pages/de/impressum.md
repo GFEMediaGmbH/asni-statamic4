@@ -13,6 +13,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 2
             content:
               -
@@ -20,30 +21,40 @@ repeater:
                 text: Impressum
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Haftungsausschluss:'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'Dieser Haftungsausschluss gilt für die folgenden Bereiche:'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'www.stiftung-media.de,'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
                 text: 'www.stiftungmedia.de,'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -51,6 +62,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -58,6 +70,8 @@ repeater:
                 text: 'Angaben gemäß § 5 TMG'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -72,8 +86,15 @@ repeater:
               -
                 type: text
                 text: '70192 Stutttgart'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: Deutschland
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -86,6 +107,8 @@ repeater:
                 text: 'Michael W. Bader'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -108,6 +131,8 @@ repeater:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -121,10 +146,12 @@ repeater:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
-                            text: '07161 307 91 91'
+                            text: '+497161 307 91 91'
               -
                 type: tableRow
                 content:
@@ -137,6 +164,8 @@ repeater:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -150,6 +179,8 @@ repeater:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -157,6 +188,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -164,6 +196,8 @@ repeater:
                 text: Aufsichtsbehörde
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -171,6 +205,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -178,6 +213,8 @@ repeater:
                 text: 'Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -185,6 +222,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -192,6 +230,8 @@ repeater:
                 text: 'Haftungsausschluss (Disclaimer)'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -209,6 +249,8 @@ repeater:
                 text: 'Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -226,6 +268,8 @@ repeater:
                 text: 'Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -243,6 +287,8 @@ repeater:
                 text: 'Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -261,6 +307,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 3
             content:
               -
@@ -268,6 +315,8 @@ repeater:
                 text: 'Konzept, Design und Umsetzung'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -284,6 +333,8 @@ repeater:
                 text: '73033 Göppingen'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -317,5 +368,5 @@ repeater:
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1697031245
+updated_at: 1706876754
 ---

@@ -78,6 +78,11 @@ repeater:
               -
                 type: text
                 text: '70192 Stutttgart'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: Germany
           -
             type: paragraph
             attrs:
@@ -132,7 +137,7 @@ repeater:
                         content:
                           -
                             type: text
-                            text: '07161 307 91 91'
+                            text: '+497161 307 91 91'
               -
                 type: tableRow
                 content:
@@ -354,5 +359,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572171
+updated_at: 1706876747
 ---

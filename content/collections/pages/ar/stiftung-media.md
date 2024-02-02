@@ -60,10 +60,7 @@ repeater:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'La meilleure façon de prédire l’avenir est de le façonner soi-même.'
+                text: 'أفضل طريقة للتنبؤ بالمستقبل هي صنعه بنفسك.'
   -
     type: set
     attrs:
@@ -118,5 +115,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572260
+updated_at: 1706876094
 ---

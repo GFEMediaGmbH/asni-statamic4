@@ -29,7 +29,7 @@ repeater:
                 marks:
                   -
                     type: bold
-                text: 'ASNI SCHOOL OF MUSIC - ONLINE SPENDEN'
+                text: 'ASNI SCHOOL OF MUSIC'
           -
             type: paragraph
             attrs:
@@ -73,6 +73,14 @@ repeater:
                   -
                     type: bold
                 text: 'Spendenkonto Jugendmusikschule Asni:'
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Kontoinhaber: Stiftung Media'
               -
                 type: hardBreak
               -
@@ -92,5 +100,5 @@ repeater:
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1698849563
+updated_at: 1706875704
 ---

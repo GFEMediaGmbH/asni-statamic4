@@ -53,7 +53,7 @@ repeater:
             content:
               -
                 type: text
-                text: '„Es ist eigenartig, aber aus neurowissenschaftlicher Sicht spricht alles dafür, dass die nutzloseste Leistung, zu der Menschen befähigt sind – und das ist unzweifelhaft das unbekümmerte, absichtslose Singen – den größten Nutzeffekt für die Entwicklung von Kindergehirnen hat.“ /Prof. Dr. Gerald Hüther, Leiter der Zentralstelle für Neurobiologische Präventionsforschung der Universität Göttingen und Mannheim/Heidelberg/ Ganz offensichtlich ist Musikerziehung damit für die Allgemeinbildung förderlich.'
+                text: '„Es ist eigenartig, aber aus neurowissenschaftlicher Sicht spricht alles dafür, dass die nutzloseste Leistung, zu der Menschen befähigt sind – und das ist unzweifelhaft das unbekümmerte, absichtslose Singen – den größten Nutzeffekt für die Entwicklung von Kindergehirnen hat." (Prof. Dr. Gerald Hüther, Leiter der Zentralstelle für Neurobiologische Präventionsforschung der Universität Göttingen und Mannheim/Heidelberg). Ganz offensichtlich ist Musikerziehung damit für die Allgemeinbildung förderlich.'
           -
             type: paragraph
             attrs:
@@ -140,20 +140,17 @@ repeater:
                       -
                         type: text
                         text: 'Fächerangebot geplant:'
+              -
+                type: listItem
+                content:
                   -
-                    type: bulletList
+                    type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
-                        type: listItem
-                        content:
-                          -
-                            type: paragraph
-                            attrs:
-                              textAlign: left
-                            content:
-                              -
-                                type: text
-                                text: 'Gitarre, Flöte, Piano, Schlagzeug, Keyboard, Ouds, Violine, Cello, Contrabass'
+                        type: text
+                        text: 'Gitarre, Flöte, Piano, Schlagzeug, Keyboard, Ouds, Violine, Cello, Contrabass'
               -
                 type: listItem
                 content:
@@ -192,5 +189,5 @@ repeater:
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706605189
+updated_at: 1706875454
 ---

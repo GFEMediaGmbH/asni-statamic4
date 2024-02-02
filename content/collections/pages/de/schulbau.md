@@ -45,7 +45,7 @@ repeater:
             content:
               -
                 type: text
-                text: 'Faktisch begannen die Arbeiten an unserem Schulgebäude allerdings erst im Mai 2023, Corona ebenso wie die deutsch-marok kanische Krise um die Westsahara hatten uns weiter aufgehalten. Mittlerweile sind wir allerdings mit Hochdruck bei der Arbeit, wie die nachfolgenden Bilder eindrücklich zeigen!'
+                text: 'Faktisch begannen die Arbeiten an unserem Schulgebäude allerdings erst im Mai 2023, Corona ebenso wie die deutsch-marokkanische Krise um die Westsahara hatten uns weiter aufgehalten. Mittlerweile sind wir allerdings mit Hochdruck bei der Arbeit, wie die nachfolgenden Bilder eindrücklich zeigen!'
           -
             type: paragraph
             attrs:
@@ -87,5 +87,5 @@ repeater:
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 template: default
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706601777
+updated_at: 1706875623
 ---

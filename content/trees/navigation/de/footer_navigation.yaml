@@ -3,15 +3,27 @@ tree:
     id: e1a344e8-eb86-448c-a4b2-31af9fb87c5b
     title: Kontakt
     url: kontakt
+    data:
+      entries:
+        - a55709a8-fa59-4032-b7cf-c6a27c15dd37
   -
     id: 6f3d23a3-7539-4654-b473-4476afb9a196
     title: Impressum
     url: impressum
+    data:
+      entries:
+        - e04b8a4a-d35c-4fb6-99cf-8bba44df404c
   -
     id: de8295fd-ebc8-41a7-9219-25905101396f
     title: Datenschutzerklärung
     url: datenschutzerklaerung
+    data:
+      entries:
+        - c934a239-612b-482c-af94-58834906d764
   -
     id: c1a1f518-1e2f-4a05-b846-08265ef5aab3
     title: Cookies
     url: cookies
+    data:
+      entries:
+        - 5042adc4-6954-4abe-bc19-7f9ec0be9813

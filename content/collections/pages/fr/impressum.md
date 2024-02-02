@@ -37,6 +37,11 @@ repeater:
               -
                 type: text
                 text: '70192 Stutttgart'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: Allemagne
           -
             type: paragraph
             attrs:
@@ -322,5 +327,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572173
+updated_at: 1706876671
 ---

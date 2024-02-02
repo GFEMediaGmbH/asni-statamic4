@@ -78,6 +78,11 @@ repeater:
                 type: hardBreak
               -
                 type: text
+                text: Allemagne
+              -
+                type: hardBreak
+              -
+                type: text
                 text: "email:\_"
               -
                 type: text
@@ -221,7 +226,21 @@ repeater:
             content:
               -
                 type: text
-                text: 'Translated with www.DeepL.com/Translator (free version)'
+                text: 'Translated with '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.deepl.com/translator'
+                      rel: null
+                      target: null
+                      title: null
+                text: www.DeepL.com/Translator
+              -
+                type: text
+                text: ' (free version)'
           -
             type: heading
             attrs:
@@ -602,5 +621,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572149
+updated_at: 1706876901
 ---

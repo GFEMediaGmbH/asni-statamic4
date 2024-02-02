@@ -50,15 +50,7 @@ repeater:
                 text: 'Stiftung Media Stuttgart'
               -
                 type: text
-                text: '. In this project, the foundation is dedicated to improving the social, economic, and ecological situation through the sustainable farming of Damask roses (“Rosa damascene”). The installation'
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'is composed of 500 rose bricks, which are harvested and converted into donation in art events like the Göppinger Cultural Night. The transformation of Iranian Roses into donations in Euros represent a responsible globalization as well as the idea that all people can shape the future of the society: '
+                text: '. In this project, the foundation is dedicated to improving the social, economic, and ecological situation through the sustainable farming of Damask roses (“Rosa damascene”). The installation is composed of 500 rose bricks, which are harvested and converted into donation in art events like the Göppinger Cultural Night. The transformation of Iranian Roses into donations in Euros represent a responsible globalization as well as the idea that all people can shape the future of the society: '
               -
                 type: text
                 marks:
@@ -144,5 +136,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572242
+updated_at: 1706874858
 ---
