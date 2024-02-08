@@ -252,122 +252,12 @@ repeater:
               -
                 type: text
                 text: 'Ihre personenbezogenen Daten werden grundsätzlich gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Die erhobenen personenbezogenen Daten zur Angebotseinholung werden gelöscht, sobald das Angebot übersendet wurde und eine zeitnahe telefonische Kontaktaufnahme mit Ihnen stattgefunden hat oder erfolglos war. Eine fortgesetzte Verarbeitung erfolgt nur, sofern sie im Rahmen einer sich ergebenden Anbahnung und Abwicklung eines Vertrages bzw. zur Erfüllung sich ergebender vertraglicher Zwecke erforderlich ist.'
-          -
-            type: heading
-            attrs:
-              textAlign: left
-              level: 3
-            content:
-              -
-                type: text
-                text: '5. Webanalyse und Werbetracking'
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: "Google Analytics\_"
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Unsere Website benutzt Google Analytics, einen Webanalysedienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland („Google“). Google Analytics verwendet sogenannte Cookies. Das sind Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Wir setzen Google Analytics nur mit aktivierter IP-Anonymisierung ein. Das bedeutet, die IP-Adresse der Nutzer wird von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt, wodurch eine Personenbeziehbarkeit ausgeschlossen werden kann. Google Inc. mit Sitz in den USA ist für das US-europäische Datenschutzübereinkommen „Privacy Shield“ zertifiziert, welches die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleistet. Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO bzw. § 15 Abs. 3 TMG auf Grundlage unseres berechtigten Interesses an der statistischen Analyse des Nutzerverhaltens zu Optimierungs- und Marketingzwecken.'
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Die Nutzungsbedingungen von Google Analytics und Informationen zum Datenschutz können über die folgenden Links abgerufen werden: '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'http://www.google.com/analytics/terms/de.html'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'http://www.google.com/analytics/terms/de.html'
-              -
-                type: text
-                text: "\_sowie unter "
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://www.google.de/intl/de/policies/.'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'https://www.google.de/intl/de/policies/.'
-              -
-                type: text
-                text: ' Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.'
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter URL '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'http://tools.google.com/dlpage/gaoptout?hl=de'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'http://tools.google.com/dlpage/gaoptout?hl=de'
-              -
-                type: text
-                text: "\_verfügbare Browser-Plug-in herunterladen und installieren. Ein Klick auf folgenden Link verhindert die Erfassung durch Google Analytics, indem ein sogenanntes Opt-out-Cookie gesetzt wird: "
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'http://tools.google.com/dlpage/gaoptout?hl=de'
-                      rel: null
-                      target: null
-                      title: 'Opens internal link in current window'
-                text: 'Deaktivierung von Google Analytics'
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://support.google.com/analytics/answer/6004245?hl=de'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'https://support.google.com/analytics/answer/6004245?hl=de'
+                text: ' '
           -
             type: heading
             attrs:
@@ -376,7 +266,7 @@ repeater:
             content:
               -
                 type: text
-                text: '6. Datenweitergabe und Empfänger'
+                text: '5. Datenweitergabe und Empfänger'
           -
             type: paragraph
             attrs:
@@ -437,7 +327,7 @@ repeater:
             content:
               -
                 type: text
-                text: '7. Dauer der Speicherung personenbezogener Daten'
+                text: '6. Dauer der Speicherung personenbezogener Daten'
           -
             type: paragraph
             attrs:
@@ -454,7 +344,7 @@ repeater:
             content:
               -
                 type: text
-                text: '8. Ihre Rechte'
+                text: '7. Ihre Rechte'
           -
             type: paragraph
             attrs:
@@ -568,7 +458,7 @@ repeater:
             content:
               -
                 type: text
-                text: '9. Änderungen unserer Datenschutzerklärung'
+                text: '8. Änderungen unserer Datenschutzerklärung'
           -
             type: paragraph
             attrs:
@@ -589,5 +479,5 @@ repeater:
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706876805
+updated_at: 1707396287
 ---

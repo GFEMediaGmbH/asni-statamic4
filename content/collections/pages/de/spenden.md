@@ -37,7 +37,7 @@ repeater:
             content:
               -
                 type: text
-                text: 'Um unsere Arbeit verwirklichen zu können, brauchen wir die Unterstützung eines großen Kreises an Förderern. Mit Ihrem finanziellen Engagement stärken Sie unsere Arbeit und investieren in eine gute Idee! Unsere Online-Spenden wickeln wir dabei über PayPal ab. Natürlich gehen wir mit Ihren Daten vertraulich um!'
+                text: 'Um unsere Arbeit verwirklichen zu können, brauchen wir die Unterstützung eines großen Kreises an Förderern. Mit Ihrem finanziellen Engagement stärken Sie unsere Arbeit und investieren in eine gute Idee! '
           -
             type: paragraph
             attrs:
@@ -100,5 +100,5 @@ repeater:
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706875704
+updated_at: 1707396651
 ---

@@ -37,7 +37,7 @@ repeater:
             content:
               -
                 type: text
-                text: 'In order to reach our goals, we need support from a big pool of supporters. Your financial engagement will strengthen our work and invest in a great idea. We take online donations through Paypal. Your information will be strictly confidential.'
+                text: 'In order to reach our goals, we need support from a big pool of supporters. Your financial engagement will strengthen our work and invest in a great idea. '
           -
             type: paragraph
             attrs:
@@ -99,5 +99,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706876535
+updated_at: 1707396657
 ---

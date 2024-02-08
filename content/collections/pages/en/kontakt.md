@@ -93,6 +93,14 @@ repeater:
                   -
                     type: bold
                 text: 'Donation Account, Music School for Youths Asni:'
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Account owner: Stiftung Media'
               -
                 type: hardBreak
               -
@@ -126,5 +134,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706572184
+updated_at: 1707396952
 ---

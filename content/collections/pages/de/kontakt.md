@@ -13,6 +13,7 @@ repeater:
           -
             type: heading
             attrs:
+              textAlign: left
               level: 2
             content:
               -
@@ -20,6 +21,8 @@ repeater:
                 text: Kontakt
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -29,6 +32,8 @@ repeater:
                 text: 'ASNI SCHOOL OF MUSIC, Marokko'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -37,7 +42,7 @@ repeater:
                 type: hardBreak
               -
                 type: text
-                text: 'جمعية أمارك للتربية للتربية للتربية ، الثقافة الثقافة الثقافة الثقافة و و الفنون'
+                text: 'جمعية أمارك للتربية للتربية للتربية ، الثقافة الثقافة و و الفنون'
               -
                 type: hardBreak
               -
@@ -50,6 +55,8 @@ repeater:
                 text: 'Königreich Marokko'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -59,6 +66,8 @@ repeater:
                 text: 'Kontakt Stuttgart, Deutschland'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -75,6 +84,8 @@ repeater:
                 text: '70192 Stuttgart'
           -
             type: paragraph
+            attrs:
+              textAlign: left
             content:
               -
                 type: text
@@ -82,6 +93,14 @@ repeater:
                   -
                     type: bold
                 text: 'Spendenkonto Jugendmusikschule Asni:'
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Kontoinhaber: Stiftung Media'
               -
                 type: hardBreak
               -
@@ -116,5 +135,5 @@ repeater:
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1697032587
+updated_at: 1707396943
 ---

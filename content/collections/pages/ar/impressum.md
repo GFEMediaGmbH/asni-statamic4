@@ -137,7 +137,7 @@ repeater:
                         content:
                           -
                             type: text
-                            text: '+497161 307 91 91'
+                            text: '+49 (0) 7161 307 91 0'
               -
                 type: tableRow
                 content:
@@ -364,5 +364,5 @@ repeater:
   -
     type: paragraph
 updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706877566
+updated_at: 1707396227
 ---
