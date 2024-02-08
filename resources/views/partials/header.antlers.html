@@ -87,16 +87,25 @@
 
 <script>
     function getLanguageUrl(baseUrl, languageCode) {
-        let currentPath = window.location.pathname;
+    let currentPath = window.location.pathname;
 
-        if (currentPath.startsWith('/en') || currentPath.startsWith('/fr')) {
-            // Replace the first segment (language code) with the new language code, or remove it for German
-            return languageCode === 'de' ? currentPath.replace(/^\/[^\/]+/, '') : currentPath.replace(/^\/[^\/]+/, '/' + languageCode);
+    // This regex will match the first segment if it's one of the language codes (en, fr, ar) or anything else
+    const langRegex = /^\/(en|fr|ar|de)?(\/|$)/;
+
+    if (languageCode === 'de') {
+        // For German, remove the language code segment entirely if present
+        return currentPath.replace(langRegex, '/');
+    } else {
+        // If the current path already starts with a language code, replace it with the new language code
+        if (currentPath.match(langRegex)) {
+            return currentPath.replace(langRegex, `/${languageCode}$2`);
         } else {
-            // For the default language (German), add the language code for other languages
-            return languageCode === 'de' ? currentPath : '/' + languageCode + currentPath;
+            // If the current path does not start with a language code, add the new language code at the beginning
+            return '/' + languageCode + currentPath;
         }
     }
+}
+
 </script>
 
  
