@@ -1,11 +1,30 @@
 <div class="container">
-  <div class="bg-black">
-    <img class="w-full mt-6  opacity-70 h-1/2 object-cover" src="{{ featured_image }}">
-  </div>
-  <h2 class="mt-6 font-medium">{{ title }}</h2>
-  <div>
-    <span class="mt-6 font-medium">{{ date }}</span>
-    <span class="mt-6 font-medium">{{ author }}</span>
-  </div>
-  <div class="pb-12">{{ content }}</div>
+    {{if featured_gallery}}
+    <!-- Gallery -->
+    <div class="stage mt-6 mb-4 shadow-md rounded-xl">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                {{ featured_gallery }}
+                <div class="swiper-slide">
+                    <img src="{{ url }}" alt="Gallery Image">
+                </div>
+                {{ /featured_gallery }}
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    {{elseif featured_image}}
+    <!-- Image -->
+    <div class="bg-black">
+        <img class="w-full mt-6 opacity-70 h-1/2 object-cover" src="{{ featured_image }}">
+    </div>
+    {{/if}}
+    <h2 class="mt-6 font-medium">{{ title }}</h2>
+    <div>
+        <span class="mt-6 font-medium">{{ date }}</span>
+        <span class="mt-6 font-medium">{{ author }}</span>
+    </div>
+    <div class="pb-12">{{ content }}</div>
 </div>

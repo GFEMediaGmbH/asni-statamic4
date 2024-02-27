@@ -53,6 +53,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: featured_image
             field:
@@ -68,6 +69,27 @@ tabs:
               display: 'Featured image'
               icon: assets
               localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: featured_gallery
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Featured Gallery'
+              icon: assets
+              instructions: |-
+                Eine Gallerie von Bildern entsprechend der Page-Einträge. 
+                Wird anstatt des featured image's im Header-Bereich des Blog-Posts angezeigt, falls befüllt.
+              localizable: false
               listable: hidden
               instructions_position: above
               visibility: visible
