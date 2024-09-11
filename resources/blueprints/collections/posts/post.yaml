@@ -89,7 +89,7 @@ tabs:
               instructions: |-
                 Eine Gallerie von Bildern entsprechend der Page-Einträge. 
                 Wird anstatt des featured image's im Header-Bereich des Blog-Posts angezeigt, falls befüllt.
-              localizable: false
+              localizable: true
               listable: hidden
               instructions_position: above
               visibility: visible

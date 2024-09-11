@@ -80,12 +80,18 @@ repeater:
           - asni-neubau-02.jpg
           - asni-neubau-03.jpg
           - asni-neubau-04.jpg
+          - music-school-progress-1.jpg
+          - music-school-progress-8.jpg
+          - 'music-school-progress-2[1].png'
+          - 'music-school-progress-9[1].png'
+          - containers-2.jpg
+          - containers-3.jpg
           - image003-(3).jpg
           - image002-(2)-(1).jpg
   -
     type: paragraph
 author: f33c7ac3-14e7-496e-9ebd-03b570383bfc
 template: default
-updated_by: f33c7ac3-14e7-496e-9ebd-03b570383bfc
-updated_at: 1706875623
+updated_by: 19afcd12-8d95-45ac-9168-caa0ffea7fd2
+updated_at: 1709114008
 ---

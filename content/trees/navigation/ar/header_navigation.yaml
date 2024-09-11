@@ -23,6 +23,14 @@ tree:
     data:
       entries:
         - c26a3ac8-78ea-4a8a-ad33-0c398be09c24
+    children:
+      -
+        id: c9569a02-b07e-4bc4-bcdd-514e803fb6f0
+        title: 'مدونة عن البناء'
+        url: bau-blog
+        data:
+          entries:
+            - a4ce27f2-4b20-4378-bd40-fc98c682c01b
   -
     id: 39e9f66c-b9b4-4e64-ad7d-bf8a65d34fe1
     title: Amarg
