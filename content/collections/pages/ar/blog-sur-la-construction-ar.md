@@ -1,5 +1,5 @@
 ---
-id: a4ce27f2-4b20-4378-bd40-fc98c682c01b
+id: 01de831f-f5ec-4107-955d-1985eeb15c45
 origin: bc431a25-4f26-4ef8-9e30-c9c1c9f10c41
 published: false
 title: 'مدونة عن البناء'
